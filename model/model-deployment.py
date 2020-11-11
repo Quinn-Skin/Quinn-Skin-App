@@ -1,6 +1,7 @@
-from sklearn.externals import joblib
 import pickle
+import numpy as np
 import bentoml
+from bentoml import api, artifacts, env, BentoService
 from bentoml.frameworks.sklearn import SklearnModelArtifact
 from bentoml.adapters import DataframeInput
 
@@ -15,15 +16,17 @@ class SklearnModelService(bentoml.BentoService):
 
     @bentoml.api(input = DataframeInput(), batch =True)
     def predict(self, df):
-        result = self.artifacts.model.predict(df)
-        return result 
+        return self.artifacts.model.predict(df)
 
 file = open('/Users/amy/recommender_model.pkl', 'rb')
 modelLoad = pickle.load(file)
 
 svc = SklearnModelService()
+print(type(svc))
 svc.pack('model',modelLoad)
-saved_path = svc.save()
+# saved_path = svc.save()
+
+svc.predict([[1,40,4,1, 0, 1, 0, 1]])
 
 
 
