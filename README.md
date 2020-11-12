@@ -8,17 +8,18 @@
 ## Overview
 ### Description
 
-It is not easy that we all need to navigate our lives with the quarantine situation around the globe. With our workout routines disrupted and work, school, and Covid threatening to burn us out, the last thing we need is an unexpected breakout right before a big Zoom meeting. Don’t we all want to take good care of ourselves and present our best face in front of others?
+It is not easy that we all need to navigate our lives with the quarantine situation around the globe -- disrupted workout routine, balancing work and school life to prevent burnouts, and all those irregular breakouts popped up overnight is probably the last thing we want before all these zoom meetings. Don’t we all want to take good care of ourselves and present our best face in front of others?
 
 Quinn is a mobile app to recommend clean skincare products for men. Users take a five-question survey regarding their skin concerns, and the app will recommend them a curated selection of products, such as some essentials for men: facial cleanser, moisturizer,and suncare.
 
 At Quinn, our goal is to help you build a healthy and easy-to-follow skincare routine. No more confusion and frustration. Want a glowy skin for your next zoom meeting? Come and join Quinn!
 
 ### App Evaluation
-- **Category:** Skincare, Wellness, Social
-- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Analyzes users music choices, and connects them to other users with similar choices. The user can then decide to message this person and befriend them if wanted.
-- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
+- **Category:** Skincare, Wellness,and Social
+- **Mobile:** The MVP version of Quinn recommends users prodcuts by taking the survey answers as inputs and incorprating an content-based recommender model at the backend to better understand their skincare needs. After taking the survey,users will receive details on the recommended product, such as product description, produc image, price and a product link to the e-commerce site. Eventually, Quinn aims to add product reviews, calender-based skin monitering, experience or other social sharing functions into the app.
+- **Story:** Users start by answering a five-question survey,including skin concern, skin type, products, and budget. Quinn provides users a detailed page on the recommended product. Users could then choose to click on 'take the survey' to search for another product or click on the 'visit product' link to purchase the product on an e-commerce site.
+- **Market:** Quinn targets men's skincare market. According to our research and experiences, men’s skincare market is largely untapped and has a great market potential post-COVID. Shopping for men’s skincare products are confusing and overwhelming to many people, even to girls. We see Quinn as a solution to a variaty of users: 
+
 - **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.
 - **Scope:** First we would start with pairing people based on music taste, then perhaps this could evolve into a music sharing application as well to broaden its usage. Large potential for use with spotify, apple music, or other music streaming applications.
 
