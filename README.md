@@ -17,9 +17,12 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
 ### App Evaluation
 - **Category:** Skincare, Wellness,and Social
 - **Mobile:** The MVP version of Quinn recommends users prodcuts by taking the survey answers as inputs and incorprating an content-based recommender model at the backend to better understand their skincare needs. After taking the survey,users will receive details on the recommended product, such as product description, produc image, price and a product link to the e-commerce site. Eventually, Quinn aims to add product reviews, calender-based skin monitering, experience or other social sharing functions into the app.
+
 - **Story:** Users start by answering a five-question survey,including skin concern, skin type, products, and budget. Quinn provides users a detailed page on the recommended product. Users could then choose to click on 'take the survey' to search for another product or click on the 'visit product' link to purchase the product on an e-commerce site.
+
 - **Market:** Quinn targets men's skincare market. According to our research and experiences, men’s skincare market is largely untapped and has a great market potential post-COVID. Shopping for men’s skincare products are confusing and overwhelming to many people, even to girls. We see Quinn as a solution for a variaty of users not just skincare junkies looking for products for their own skin, but also women looking for skincare products for the important males in their life!
 - **Habit:** We see the usage of Quinn peaks around holiday season when people shopping for their families, friends and loved ones. We also project a higher usage around anniversaires, birthdays and the change of seasons (subjected to individual user)
+
 - **Scope:** The main feature for Quinn is to provide product recommendation. Currently, it will present the recommended product one at a time. We hope to expand it to provide an entire three-product routine all in once in the future without having users taking the survey over and over again. And add features mentione in the mobile section above. 
 
 ## Product Spec
