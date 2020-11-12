@@ -8,10 +8,14 @@
 ## Overview
 ### Description
 
+It is not easy that we all need to navigate our lives with the quarantine situation around the globe. With our workout routines disrupted and work, school, and Covid threatening to burn us out, the last thing we need is an unexpected breakout right before a big Zoom meeting. Don’t we all want to take good care of ourselves and present our best face in front of others?
 
+Quinn is a mobile app to recommend clean skincare products for men. Users take a five-question survey regarding their skin concerns, and the app will recommend them a curated selection of products, such as some essentials for men: facial cleanser, moisturizer,and suncare.
+
+At Quinn, our goal is to help you build a healthy and easy-to-follow skincare routine. No more confusion and frustration. Want a glowy skin for your next zoom meeting? Come and join Quinn!
 
 ### App Evaluation
-- **Category:** S
+- **Category:** Skincare, Wellness, Social
 - **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
 - **Story:** Analyzes users music choices, and connects them to other users with similar choices. The user can then decide to message this person and befriend them if wanted.
 - **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
