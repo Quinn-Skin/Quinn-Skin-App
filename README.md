@@ -27,54 +27,49 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
 - **Scope:** The main feature for Quinn is to provide product recommendations. Currently, it will present the recommended product one at a time. We hope to expand it to offer an entire three-product routine all at once in the future without having users taking the survey over and over again. And add the features mentioned in the mobile section above. 
 
 ## Product Spec
-### 1. User Stories (Required and Optional)
+### 1. User Stories 
 
 **Required Must-have Stories**
 
 * About page explaining what Quinn is and the process of using it
-* A simple five-question survey where users select answers (no written reponse and sharing personal information required)
+* A simple five-question survey where users select answers (no written response and sharing personal information required)
 * A recommended product page, including product name, description, price, image and a link to view on product e-commerce site
-* Go back to take the survey button for users to search fo more products
+* Go back to take the survey button for users to search for more products
 
 
 **Optional Nice-to-have Stories**
 
 * create a user profile and login/logout function
-* add product reviews for the recommended products to keep users longers within the Quinn App instead of diverting to other site for product information
-* output multiple recommended products all at once to create a skincare regimin for users
-* a skin diary -- a caleder and upload selfie function where users could use it to track their skin changes
-* social sharing function which allows users to share the recommended products to their own circle
+* add product reviews for the recommended products to keep users longers within the Quinn App instead of diverting to other sites for product information
+* output multiple recommended products all at once to create a skincare regimen for users
+* a skin diary -- a calendar and upload selfie function where users could use it to track their skin changes
+* social sharing function which allows users to share the recommended products to their circles
 
 
 ### 2. Screen Archetypes
 
-* Login 
-* Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
-   * ...
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
-   * Upon selecting music choice users matched and message screen opens
-* Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
+* About Quinn - the introduction of Quinn Skin
+* Survey screens - one question per question for five in total
+   * users select either one or multiple answers based on the questions by tabbing the screen
+* Product recommendation screen - provides product details
+   * the recommender model will offer a relevant product based on the survey
+   * user then can click on retake the survey button to go back
 
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
+**Tab Navigation** 
+* Survey selection 
+* Navigating to the next question
+* Take the survey again
+* Visit product details link directs users t the e-commerce site
 
-* Music selection
-* Profile
-* Settings
 
-Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
-
-**Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+**Flow Navigation** 
+* Introducing Quinn and how the process works 
+* Taking the five-question survey 
+* Providing a recommended product 
+* retaking the survey if needed OR leave the app
 
 ## Wireframes
 <img src="http://g.recordit.co/wH3ZriSZws.gif" width=800><br>
