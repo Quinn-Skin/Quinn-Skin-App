@@ -78,4 +78,4 @@ Optional:
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src="https://imgur.com/2ESxgIt" width=800><br>
+<img src="https://imgur.com/a/ltAQbNg" width=800><br>
