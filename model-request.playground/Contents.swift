@@ -2,7 +2,7 @@ import UIKit
 
 //let parameters = ["Label":2,"price":10,"score":5,"Combination":1,"Dry":0,"Normal":1,"Oily":0,"Sensitive":1]
 
-let parameters = [[2,10,5,1,0,1,0,1]]
+let parameters = [2,10,5,1,0,1,0,1]
 let url = URL(string: "https://quinn-model.herokuapp.com/predict")
 
 let session = URLSession.shared
