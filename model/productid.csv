@@ -1,0 +1,257 @@
+,product_id,Label,brand_name,product_name,price,score,Combination,Dry,Normal,Oily,Sensitive,name
+0,0,0,Fresh,Soy Makeup Removing Face Wash,38.0,4.4,1,1,1,1,0,Fresh Soy Makeup Removing Face Wash
+1,1,0,Dermalogica,Daily Microfoliant Exfoliator,59.0,4.6,1,1,1,1,0,Dermalogica Daily Microfoliant Exfoliator
+2,2,0,Dermalogica,Special Cleansing Gel,39.0,4.4,1,1,1,1,0,Dermalogica Special Cleansing Gel
+3,3,0,Dermalogica,Mini Daily Microfoliant Exfoliator,15.0,4.3,1,1,1,1,0,Dermalogica Mini Daily Microfoliant Exfoliator
+4,4,0,Kiehl's Since 1851,Facial Fuel Energizing Face Wash,24.0,4.8,1,1,1,1,0,Kiehl's Since 1851 Facial Fuel Energizing Face Wash
+5,5,0,boscia,Detoxifying Black Charcoal Cleanser,30.0,4.3,1,1,1,1,0,boscia Detoxifying Black Charcoal Cleanser
+6,6,0,Jack Black,Pure Clean Daily Facial Cleanser,19.0,4.6,1,1,1,1,0,Jack Black Pure Clean Daily Facial Cleanser
+7,7,0,Jack Black,"All-Over Wash For Face, Hair & Body",21.0,4.7,1,1,1,1,0,"Jack Black All-Over Wash For Face, Hair & Body"
+8,8,0,Jack Black,Face Buff Energizing Scrub,18.0,0.0,1,1,1,1,0,Jack Black Face Buff Energizing Scrub
+9,9,0,Jack Black,Deep Dive™ Glycolic Facial Cleanser,23.0,0.0,1,1,1,1,0,Jack Black Deep Dive™ Glycolic Facial Cleanser
+10,10,0,Dermalogica,Active Clay Prebiotic Cleanser,39.0,0.0,1,1,1,1,0,Dermalogica Active Clay Prebiotic Cleanser
+11,11,0,Kiehl's Since 1851,Oil Eliminator Deep Cleansing Exfoliating Face Wash For Men,24.0,0.0,1,0,0,1,0,Kiehl's Since 1851 Oil Eliminator Deep Cleansing Exfoliating Face Wash For Men
+12,12,0,Lab Series For Men,Multi-Action Face Wash,26.0,0.0,1,1,1,1,0,Lab Series For Men Multi-Action Face Wash
+13,13,0,CLINIQUE,Charcoal Face Wash,22.5,0.0,1,1,1,1,0,CLINIQUE Charcoal Face Wash
+14,14,0,Kiehl's Since 1851,Age Defender Dual-Action Exfoliating Cleanser,28.0,0.0,0,1,1,0,1,Kiehl's Since 1851 Age Defender Dual-Action Exfoliating Cleanser
+15,15,0,CLINIQUE,Face Scrub,21.5,0.0,0,1,1,0,1,CLINIQUE Face Scrub
+16,16,0,Dermalogica,Special Cleansing Gel Mini,12.0,0.0,1,1,1,1,0,Dermalogica Special Cleansing Gel Mini
+17,17,0,Anthony,Glycolic Facial Cleanser,30.0,0.0,1,1,1,1,0,Anthony Glycolic Facial Cleanser
+18,18,0,TOM FORD,Exfoliating Energy Scrub,54.0,0.0,1,0,1,1,0,TOM FORD Exfoliating Energy Scrub
+19,19,0,CLINIQUE,Oil Control Face Wash,20.0,0.0,1,0,1,1,0,CLINIQUE Oil Control Face Wash
+20,20,0,CLINIQUE,Face Wash,20.0,0.0,1,0,1,1,0,CLINIQUE Face Wash
+21,21,0,Anthony,Facial Scrub,36.0,0.0,1,0,1,1,0,Anthony Facial Scrub
+22,22,0,Lab Series For Men,Invigorating Face Scrub,33.0,0.0,0,0,1,1,0,Lab Series For Men Invigorating Face Scrub
+23,23,0,Lab Series For Men,Oil Control Clay Cleanser + Mask,26.0,0.0,1,0,0,1,0,Lab Series For Men Oil Control Clay Cleanser + Mask
+24,24,1,Drunk Elephant,Protini™ Polypeptide Moisturizer,68.0,4.0,1,1,1,1,0,Drunk Elephant Protini™ Polypeptide Moisturizer
+25,25,1,Drunk Elephant,B-Hydra™ Intensive Hydration Serum,48.0,4.2,1,1,1,1,0,Drunk Elephant B-Hydra™ Intensive Hydration Serum
+26,26,1,Peter Thomas Roth,FIRMx™ Exfoliating Peel Gel,48.0,4.6,0,0,1,0,0,Peter Thomas Roth FIRMx™ Exfoliating Peel Gel
+27,27,1,Kiehl's Since 1851,Facial Fuel Energizing Moisturizer for Men,35.0,4.6,1,1,1,1,0,Kiehl's Since 1851 Facial Fuel Energizing Moisturizer for Men
+28,28,1,Dermalogica,Active Moist Moisturizer,66.0,4.6,1,0,1,1,0,Dermalogica Active Moist Moisturizer
+29,29,1,Peter Thomas Roth,Max Complexion Salicylic Acid Pore Refining Pads,46.0,4.4,1,0,1,1,0,Peter Thomas Roth Max Complexion Salicylic Acid Pore Refining Pads
+30,30,1,Peter Thomas Roth,Therapeutic Sulfur Acne Treatment Mask,52.0,4.5,1,0,1,1,0,Peter Thomas Roth Therapeutic Sulfur Acne Treatment Mask
+31,31,1,Supergoop!,Superscreen Daily Moisturizer Broad Spectrum SPF 40 PA+++,38.0,3.7,1,1,1,0,0,Supergoop! Superscreen Daily Moisturizer Broad Spectrum SPF 40 PA+++
+32,32,1,Jack Black,Intense Therapy Lip Balm SPF 25,8.0,4.7,1,1,1,0,0,Jack Black Intense Therapy Lip Balm SPF 25
+33,33,1,Kiehl's Since 1851,Age Defender Moisturizer,40.0,4.9,0,1,1,0,1,Kiehl's Since 1851 Age Defender Moisturizer
+34,34,1,Jack Black,Double-Duty Face Moisturizer Broad Spectrum SPF 20,28.0,4.4,0,1,1,0,1,Jack Black Double-Duty Face Moisturizer Broad Spectrum SPF 20
+35,35,1,Dermalogica,Multi-Active Toner,41.0,4.4,1,1,1,1,0,Dermalogica Multi-Active Toner
+36,36,1,Dermalogica,Skin Smoothing Cream Moisturizer,69.0,4.3,1,1,1,0,0,Dermalogica Skin Smoothing Cream Moisturizer
+37,37,1,Jack Black,Protein Booster Skin Serum,62.0,4.7,1,1,1,1,1,Jack Black Protein Booster Skin Serum
+38,38,1,CLINIQUE,Clinique For Men™ Anti-Age Moisturizer,41.0,5.0,1,1,1,1,0,CLINIQUE Clinique For Men™ Anti-Age Moisturizer
+39,39,1,Jack Black,Clean Break™ Oil-Free Moisturizer,30.0,4.5,1,1,1,1,0,Jack Black Clean Break™ Oil-Free Moisturizer
+40,41,1,Dermalogica,Mini Active Moist Moisturizer,42.0,5.0,1,0,1,1,0,Dermalogica Mini Active Moist Moisturizer
+41,42,1,CLINIQUE,Clinique For Men™ Maximum Hydrator 72-Hour Auto-Replenishing Hydrator,39.5,5.0,1,1,1,1,0,CLINIQUE Clinique For Men™ Maximum Hydrator 72-Hour Auto-Replenishing Hydrator
+42,43,1,Peter Thomas Roth,Water Drench® Hyaluronic Cloud Serum,65.0,4.2,0,1,0,0,0,Peter Thomas Roth Water Drench® Hyaluronic Cloud Serum
+43,44,1,Peter Thomas Roth,Irish Moor Mud Purifying Black Mask,60.0,4.4,1,1,1,1,0,Peter Thomas Roth Irish Moor Mud Purifying Black Mask
+44,45,1,Jack Black,Cool Moisture Body Lotion,30.0,4.6,1,1,1,1,0,Jack Black Cool Moisture Body Lotion
+45,46,1,Lab Series For Men,Age Rescue Face Lotion,55.0,5.0,1,1,1,1,1,Lab Series For Men Age Rescue Face Lotion
+46,47,1,TOM FORD,Hydrating Lip Balm,29.0,4.2,1,1,1,1,1,TOM FORD Hydrating Lip Balm
+47,48,1,Jack Black,Line Smoother Oil-Free Moisturizer,32.0,4.5,1,1,1,1,1,Jack Black Line Smoother Oil-Free Moisturizer
+48,49,1,Jack Black,Dry Erase® Ultra-Calming Face Cream,38.0,4.8,1,1,1,1,1,Jack Black Dry Erase® Ultra-Calming Face Cream
+49,50,1,Jack Black,Epic Moisture™ MP10™ Nourishing Oil,35.0,4.7,1,1,1,1,1,Jack Black Epic Moisture™ MP10™ Nourishing Oil
+50,51,1,Kiehl's Since 1851,Facial Fuel Energizing Moisturizer for Men Mini,28.0,0.0,1,1,1,1,0,Kiehl's Since 1851 Facial Fuel Energizing Moisturizer for Men Mini
+51,52,1,Kiehl's Since 1851,Facial Fuel Sunscreen Broad Spectrum SPF 20,35.0,3.4,0,1,1,0,1,Kiehl's Since 1851 Facial Fuel Sunscreen Broad Spectrum SPF 20
+52,53,1,Kiehl's Since 1851,Oil Eliminator 24-Hour Anti-Shine Moisturizer For Men,28.0,3.3,1,0,0,1,0,Kiehl's Since 1851 Oil Eliminator 24-Hour Anti-Shine Moisturizer For Men
+53,54,1,CLINIQUE,Oil Control Mattifying Moisturizer,31.0,4.3,1,0,0,1,0,CLINIQUE Oil Control Mattifying Moisturizer
+54,55,1,Kiehl's Since 1851,Facial Fuel Energizing Tonic For Men,18.0,5.0,1,0,1,1,1,Kiehl's Since 1851 Facial Fuel Energizing Tonic For Men
+55,56,1,TOM FORD,Oil-Free Daily Moisturizer,112.0,4.0,1,1,1,1,1,TOM FORD Oil-Free Daily Moisturizer
+56,57,1,Lab Series For Men,Age Rescue Water-Charged Gel Cream,55.0,0.0,1,1,1,1,0,Lab Series For Men Age Rescue Water-Charged Gel Cream
+57,58,1,Peter Thomas Roth,Instant FIRMx® Temporary Face Tightener,48.0,3.7,1,1,1,1,0,Peter Thomas Roth Instant FIRMx® Temporary Face Tightener
+58,59,1,Kiehl's Since 1851,Age Defender Power Serum,50.0,3.7,1,1,1,1,0,Kiehl's Since 1851 Age Defender Power Serum
+59,60,1,Dermalogica,Multi-Active Toner Mini,12.0,4.0,1,1,1,1,0,Dermalogica Multi-Active Toner Mini
+60,61,1,Dermalogica,Skin Smoothing Cream Moisturizer Mini,43.0,3.6,1,1,1,0,0,Dermalogica Skin Smoothing Cream Moisturizer Mini
+61,62,1,CLINIQUE,Moisturizing Lotion,31.0,4.5,1,1,1,0,0,CLINIQUE Moisturizing Lotion
+62,63,1,Lab Series For Men,Future Rescue Repair Serum,65.0,5.0,1,1,1,1,1,Lab Series For Men Future Rescue Repair Serum
+63,64,1,TOM FORD,Intensive Purifying Mud Mask,67.0,5.0,1,1,1,1,1,TOM FORD Intensive Purifying Mud Mask
+64,65,1,Lab Series For Men,Oil Control Daily Moisturizer,36.0,0.0,1,0,0,1,0,Lab Series For Men Oil Control Daily Moisturizer
+65,66,1,Lab Series For Men,All-In-One Face Treatment,33.0,4.7,1,1,1,1,1,Lab Series For Men All-In-One Face Treatment
+66,67,1,Jack Black,Power Peel Multi-Acid Resurfacing Pads,38.0,4.5,1,1,1,1,1,Jack Black Power Peel Multi-Acid Resurfacing Pads
+67,68,1,CLINIQUE,Exfoliating Tonic,17.5,4.5,1,1,1,1,1,CLINIQUE Exfoliating Tonic
+68,69,1,CLINIQUE,Broad Spectrum SPF 21 Moisturizer,31.0,4.3,1,1,1,1,1,CLINIQUE Broad Spectrum SPF 21 Moisturizer
+69,70,1,Peter Thomas Roth,AHA/BHA Acne Clearing Gel,54.0,4.3,1,1,1,1,0,Peter Thomas Roth AHA/BHA Acne Clearing Gel
+70,71,1,Anthony,Glycolic Exfoliating & Resurfacing Wipes,20.0,4.5,1,1,1,1,0,Anthony Glycolic Exfoliating & Resurfacing Wipes
+71,72,1,Anthony,Astringent Toner Pads,28.0,4.7,1,1,1,1,0,Anthony Astringent Toner Pads
+72,73,1,Anthony,Oil Free Facial Lotion,30.0,4.4,1,1,1,1,0,Anthony Oil Free Facial Lotion
+73,74,1,Kiehl's Since 1851,Oil Eliminator Refreshing Shine Control Toner For Men,18.0,3.3,1,0,0,1,0,Kiehl's Since 1851 Oil Eliminator Refreshing Shine Control Toner For Men
+74,75,1,Anthony,High Performance Vitamin C Facial Serum,46.0,4.4,1,0,0,1,0,Anthony High Performance Vitamin C Facial Serum
+75,76,1,Fresh,Umbrian Clay Purifying Facial Toner,38.0,3.9,1,1,1,1,1,Fresh Umbrian Clay Purifying Facial Toner
+76,77,1,TOM FORD,Skin Revitalizing Concentrate,155.0,5.0,1,1,1,1,1,TOM FORD Skin Revitalizing Concentrate
+77,78,2,Jack Black,Beard Lube® Conditioning Shave,35.0,4.8,1,1,1,1,1,Jack Black Beard Lube® Conditioning Shave
+78,79,2,Jack Black,Beard Oil,26.0,4.7,1,1,1,1,1,Jack Black Beard Oil
+79,80,2,Kiehl's Since 1851,Facial Fuel Energizing Scrub,22.0,4.8,1,1,1,1,1,Kiehl's Since 1851 Facial Fuel Energizing Scrub
+80,81,2,Jack Black,Supreme Cream Triple Cushion™ Shave Lather,19.0,4.8,1,1,1,1,1,Jack Black Supreme Cream Triple Cushion™ Shave Lather
+81,82,2,Jack Black,Epic Moisture™ MP10™ Nourishing Oil,35.0,4.7,1,1,1,1,1,Jack Black Epic Moisture™ MP10™ Nourishing Oil
+82,83,2,Jack Black,Beard Wash,18.0,5.0,1,1,1,1,1,Jack Black Beard Wash
+83,84,2,Kiehl's Since 1851,"""Close-Shavers"" Squadron™ Ultimate Brushless Shave Cream",18.0,4.5,0,1,1,1,0,"Kiehl's Since 1851 ""Close-Shavers"" Squadron™ Ultimate Brushless Shave Cream"
+84,85,2,Jack Black,Double Header™ Shampoo + Conditioner,32.0,4.1,0,1,1,1,0,Jack Black Double Header™ Shampoo + Conditioner
+85,86,2,The Art of Shaving,The 4 Elements of the Perfect Shave™ - Unscented,95.0,4.7,0,1,1,1,0,The Art of Shaving The 4 Elements of the Perfect Shave™ - Unscented
+86,87,2,Anthony,Ingrown Hair Treatment,34.0,4.2,0,1,1,1,0,Anthony Ingrown Hair Treatment
+87,88,2,The Art of Shaving,The 4 Elements of the Perfect Shave™ - Sandalwood,95.0,4.8,0,1,1,1,0,The Art of Shaving The 4 Elements of the Perfect Shave™ - Sandalwood
+88,89,2,The Art of Shaving,Shaving Cream - Unscented,25.0,4.7,0,1,1,1,0,The Art of Shaving Shaving Cream - Unscented
+89,90,2,Kiehl's Since 1851,Grooming Solutions Nourishing Beard Grooming Oil,30.0,4.6,0,0,0,0,0,Kiehl's Since 1851 Grooming Solutions Nourishing Beard Grooming Oil
+90,91,2,The Art of Shaving,Shaving Cream - Sandalwood,25.0,4.7,0,1,1,1,0,The Art of Shaving Shaving Cream - Sandalwood
+91,92,2,Shaveworks,Pearl Soufflé Luxurious Shave Cream,22.0,4.3,0,1,1,1,0,Shaveworks Pearl Soufflé Luxurious Shave Cream
+92,93,2,The Art of Shaving,The 4 Elements of the Perfect Shave™ Carry-On - Sandalwood,60.0,4.7,0,1,1,1,0,The Art of Shaving The 4 Elements of the Perfect Shave™ Carry-On - Sandalwood
+93,94,2,Jack Black,Beard Lube Conditioning Shave - 3 Pack,40.0,4.8,0,1,1,1,0,Jack Black Beard Lube Conditioning Shave - 3 Pack
+94,95,2,Lab Series For Men,Cooling Shave Cream,28.0,4.7,1,1,1,1,1,Lab Series For Men Cooling Shave Cream
+95,96,2,Anthony,Shave Cream,20.0,4.7,1,1,1,1,1,Anthony Shave Cream
+96,97,2,The Art of Shaving,Shaving Cream - Lavender,25.0,4.7,1,1,1,1,1,The Art of Shaving Shaving Cream - Lavender
+97,98,2,The Art of Shaving,Beard Conditioner - Peppermint Essential Oil,15.0,0.0,1,1,1,1,1,The Art of Shaving Beard Conditioner - Peppermint Essential Oil
+98,99,2,The Art of Shaving,Pre-Shave Oil - Unscented,25.0,0.0,1,1,1,1,1,The Art of Shaving Pre-Shave Oil - Unscented
+99,100,2,TOM FORD,Fucking Fabulous Beard Oil,70.0,0.0,1,1,1,1,1,TOM FORD Fucking Fabulous Beard Oil
+100,101,2,CLINIQUE,Aloe Shave Gel,19.5,0.0,1,1,1,1,1,CLINIQUE Aloe Shave Gel
+101,102,2,CLINIQUE,Cream Shave,19.5,0.0,1,1,1,1,1,CLINIQUE Cream Shave
+102,103,2,The Art of Shaving,Pre-Shave Oil - Lavender,25.0,0.0,1,1,1,1,1,The Art of Shaving Pre-Shave Oil - Lavender
+103,104,2,Dior,Sauvage Shaving Gel,55.0,0.0,1,1,1,1,1,Dior Sauvage Shaving Gel
+104,105,2,The Art of Shaving,Beard Wash - Peppermint Essential Oil,15.0,0.0,1,1,1,1,1,The Art of Shaving Beard Wash - Peppermint Essential Oil
+105,106,2,The Art of Shaving,Pre-Shave Oil - Sandalwood,25.0,0.0,1,1,1,1,1,The Art of Shaving Pre-Shave Oil - Sandalwood
+106,107,2,Lab Series For Men,The Grooming Oil 3-In-1 Shave & Beard Oil,36.0,0.0,1,1,1,1,0,Lab Series For Men The Grooming Oil 3-In-1 Shave & Beard Oil
+107,108,2,TOM FORD,Shave Cream,80.0,0.0,1,1,1,1,0,TOM FORD Shave Cream
+108,109,2,TOM FORD,Shave Oil,65.0,0.0,1,1,1,1,0,TOM FORD Shave Oil
+109,110,3,CHANEL,BLEU DE CHANEL Eau de Toilette,77.0,0.0,1,1,1,1,0,CHANEL BLEU DE CHANEL Eau de Toilette
+110,111,3,CHANEL,BLEU DE CHANEL Eau de Parfum,95.0,0.0,1,1,1,1,0,CHANEL BLEU DE CHANEL Eau de Parfum
+111,112,3,Maison Margiela,’REPLICA’ By the Fireplace,130.0,0.0,1,1,1,1,0,Maison Margiela ’REPLICA’ By the Fireplace
+112,113,3,TOM FORD,Tobacco Vanille,250.0,0.0,1,1,1,1,0,TOM FORD Tobacco Vanille
+113,114,3,Dior,Sauvage Eau de Toilette,77.0,4.6,1,1,1,1,0,Dior Sauvage Eau de Toilette
+114,115,3,TOM FORD,Oud Wood,250.0,4.4,1,1,1,1,0,TOM FORD Oud Wood
+115,116,3,TOM FORD,Bitter Peach Eau De Parfum,350.0,3.2,1,1,1,1,0,TOM FORD Bitter Peach Eau De Parfum
+116,117,3,Dior,Sauvage Eau de Parfum,95.0,4.6,1,1,1,1,0,Dior Sauvage Eau de Parfum
+117,118,3,CHANEL,ALLURE HOMME SPORT Eau de Toilette,77.0,4.9,1,1,1,1,0,CHANEL ALLURE HOMME SPORT Eau de Toilette
+118,119,3,Jo Malone London,Wood Sage & Sea Salt Cologne,142.0,4.0,1,1,1,1,0,Jo Malone London Wood Sage & Sea Salt Cologne
+119,120,3,TOM FORD,Ombré Leather,134.0,4.2,1,1,1,1,0,TOM FORD Ombré Leather
+120,121,3,Maison Margiela,’REPLICA’ Jazz Club,130.0,4.6,1,1,1,1,0,Maison Margiela ’REPLICA’ Jazz Club
+121,122,3,Armani Beauty,Acqua Di Gio Pour Homme,88.0,4.8,1,1,1,1,0,Armani Beauty Acqua Di Gio Pour Homme
+122,123,3,Versace,Eros,88.0,4.7,1,1,1,1,0,Versace Eros
+123,124,3,Paco Rabanne,1 Million Eau de Toilette,92.0,4.7,1,1,1,1,0,Paco Rabanne 1 Million Eau de Toilette
+124,125,3,BVLGARI,Eau Parfumée Au Thé Blanc,98.0,4.6,1,1,1,1,0,BVLGARI Eau Parfumée Au Thé Blanc
+125,126,3,Yves Saint Laurent,L'Homme,76.0,4.8,1,1,1,1,0,Yves Saint Laurent L'Homme
+126,127,3,TOM FORD,White Suede,250.0,4.5,1,1,1,1,0,TOM FORD White Suede
+127,128,3,TOM FORD,Noir de Noir,250.0,4.6,1,1,1,1,0,TOM FORD Noir de Noir
+128,129,3,Jo Malone London,Fig & Lotus Flower Cologne,142.0,3.9,1,1,1,1,0,Jo Malone London Fig & Lotus Flower Cologne
+129,130,3,TOM FORD,Tuscan Leather,250.0,4.3,1,1,1,1,0,TOM FORD Tuscan Leather
+130,131,3,Viktor&Rolf,Spicebomb,92.0,4.7,1,1,1,1,0,Viktor&Rolf Spicebomb
+131,132,3,Gucci,Guilty Pour Homme,130.0,4.5,1,1,1,1,0,Gucci Guilty Pour Homme
+132,133,3,Yves Saint Laurent,Y Eau de Toilette,97.0,4.7,1,1,1,1,0,Yves Saint Laurent Y Eau de Toilette
+133,134,3,Atelier Cologne,Vanille Insensée Cologne Absolue Pure Perfume,140.0,4.3,1,1,1,1,0,Atelier Cologne Vanille Insensée Cologne Absolue Pure Perfume
+134,135,3,Jo Malone London,Myrrh & Tonka Cologne Intense,195.0,4.5,1,1,1,1,0,Jo Malone London Myrrh & Tonka Cologne Intense
+135,136,3,TOM FORD,Black Orchid Parfum,195.0,4.3,1,1,1,1,0,TOM FORD Black Orchid Parfum
+136,137,3,Yves Saint Laurent,La Nuit De L’Homme,95.0,4.8,1,1,1,1,0,Yves Saint Laurent La Nuit De L’Homme
+137,138,3,CHANEL,ALLURE HOMME SPORT EAU EXTRÊME Eau de Parfum,95.0,4.6,1,1,1,1,0,CHANEL ALLURE HOMME SPORT EAU EXTRÊME Eau de Parfum
+138,139,3,Versace,Versace Man Eau Fraiche,115.0,4.8,1,1,1,1,0,Versace Versace Man Eau Fraiche
+139,140,3,Montblanc,Legend Eau de Toilette,92.0,4.8,1,1,1,1,0,Montblanc Legend Eau de Toilette
+140,141,3,Armani Beauty,Armani Code,72.0,4.8,1,1,1,1,0,Armani Beauty Armani Code
+141,142,3,Jo Malone London,Oud & Bergamot Cologne Intense,195.0,4.5,1,1,1,1,0,Jo Malone London Oud & Bergamot Cologne Intense
+142,143,3,TOM FORD,Noir Extreme,184.0,4.5,1,1,1,1,0,TOM FORD Noir Extreme
+143,144,3,Versace,Dylan Blue,118.0,4.7,1,1,1,1,0,Versace Dylan Blue
+144,145,3,Armani Beauty,Acqua Di Gio Profumo,77.0,4.8,1,1,1,1,0,Armani Beauty Acqua Di Gio Profumo
+145,146,3,Versace,Pour Homme,115.0,4.8,1,1,1,1,0,Versace Pour Homme
+146,147,3,DOLCE&GABBANA,Light Blue Pour Homme Eau de Toilette,90.0,4.8,1,1,1,1,0,DOLCE&GABBANA Light Blue Pour Homme Eau de Toilette
+147,148,3,Maison Margiela,’REPLICA’ At The Barber’s,130.0,4.2,1,1,1,1,0,Maison Margiela ’REPLICA’ At The Barber’s
+148,149,3,Viktor&Rolf,Spicebomb Extreme,120.0,4.5,1,1,1,1,0,Viktor&Rolf Spicebomb Extreme
+149,150,3,HERMÈS,Terre d’Hermès Eau de Toilette,124.0,4.4,1,1,1,1,0,HERMÈS Terre d’Hermès Eau de Toilette
+150,151,3,DOLCE&GABBANA,The One For Men,120.0,4.7,1,1,1,1,0,DOLCE&GABBANA The One For Men
+151,152,3,Kilian,"Straight To Heaven, White Cristal",240.0,4.9,1,1,1,1,0,"Kilian Straight To Heaven, White Cristal"
+152,153,3,Jo Malone London,English Oak & Redcurrant Cologne,140.0,4.5,1,1,1,1,0,Jo Malone London English Oak & Redcurrant Cologne
+153,154,3,DOLCE&GABBANA,The One For Men Eau De Parfum,134.0,4.5,1,1,1,1,0,DOLCE&GABBANA The One For Men Eau De Parfum
+154,155,3,Kilian,Moonlight in Heaven,240.0,4.0,1,1,1,1,0,Kilian Moonlight in Heaven
+155,156,3,Prada,Luna Rossa Carbon,94.0,4.8,1,1,1,1,0,Prada Luna Rossa Carbon
+156,157,3,Paco Rabanne,Invictus Eau de Toilette,92.0,4.8,1,1,1,1,0,Paco Rabanne Invictus Eau de Toilette
+157,158,3,Kilian,Intoxicated,240.0,4.4,1,1,1,1,0,Kilian Intoxicated
+158,159,3,Atelier Cologne,Orange Sanguine Cologne Absolue Pure Perfume,140.0,4.1,1,1,1,1,0,Atelier Cologne Orange Sanguine Cologne Absolue Pure Perfume
+159,160,3,Armani Beauty,Acqua di Gio Absolu,100.0,4.7,1,1,1,1,0,Armani Beauty Acqua di Gio Absolu
+160,161,3,HERMÈS,Un Jardin sur le Nil Eau de Toilette,139.0,4.6,1,1,1,1,0,HERMÈS Un Jardin sur le Nil Eau de Toilette
+161,162,3,Kilian,"Black Phantom - ""Memento Mori""",240.0,4.2,1,1,1,1,0,"Kilian Black Phantom - ""Memento Mori"""
+162,163,3,CHANEL,PLATINUM ÉGOÏSTE Eau de Toilette,77.0,4.8,1,1,1,1,0,CHANEL PLATINUM ÉGOÏSTE Eau de Toilette
+163,164,3,Armani Beauty,Acqua Di Giò Pour Homme Profondo Eau de Parfum,138.0,4.7,1,1,1,1,0,Armani Beauty Acqua Di Giò Pour Homme Profondo Eau de Parfum
+164,165,3,Maison Margiela,’REPLICA’ Jazz Club Travel Spray,30.0,4.7,1,1,1,1,0,Maison Margiela ’REPLICA’ Jazz Club Travel Spray
+165,166,3,Paco Rabanne,1 Million Parfum,100.0,5.0,1,1,1,1,0,Paco Rabanne 1 Million Parfum
+166,167,3,Kilian,Vodka on the Rocks,240.0,4.6,1,1,1,1,0,Kilian Vodka on the Rocks
+167,168,3,BVLGARI,Pour Homme,94.0,4.8,1,1,1,1,0,BVLGARI Pour Homme
+168,169,3,Jo Malone London,Cypress & Grapevine Cologne Intense,195.0,4.7,1,1,1,1,0,Jo Malone London Cypress & Grapevine Cologne Intense
+169,170,3,HERMÈS,Terre d’Hermès Pure Perfume,138.0,4.9,1,1,1,1,0,HERMÈS Terre d’Hermès Pure Perfume
+170,171,3,Dior,Fahrenheit,75.0,4.7,1,1,1,1,0,Dior Fahrenheit
+171,172,3,Fresh,Cannabis Santal,50.0,4.5,1,1,1,1,0,Fresh Cannabis Santal
+172,173,3,Valentino,Uomo Born In Roma,77.0,4.4,1,1,1,1,0,Valentino Uomo Born In Roma
+173,174,3,Jo Malone London,English Oak & Hazelnut Cologne,142.0,4.2,1,1,1,1,0,Jo Malone London English Oak & Hazelnut Cologne
+174,175,3,Carolina Herrera,212 Men,72.0,4.8,1,1,1,1,0,Carolina Herrera 212 Men
+175,176,3,Versace,Eros Pour Homme Eau de Parfum,102.0,0.0,1,1,1,1,0,Versace Eros Pour Homme Eau de Parfum
+176,177,3,Armani Beauty,Acqua di Gio Jumbo,126.0,4.8,1,1,1,1,0,Armani Beauty Acqua di Gio Jumbo
+177,178,3,Viktor&Rolf,Spicebomb Night Vision Eau de Parfum,120.0,4.4,1,1,1,1,0,Viktor&Rolf Spicebomb Night Vision Eau de Parfum
+178,179,3,TOM FORD,Champaca Absolute,250.0,4.8,1,1,1,1,0,TOM FORD Champaca Absolute
+179,180,3,CHANEL,BLEU DE CHANEL Eau de Toilette Refillable Twist and Spray,82.0,5.0,1,1,1,1,0,CHANEL BLEU DE CHANEL Eau de Toilette Refillable Twist and Spray
+180,181,3,BURBERRY,Touch For Men,66.0,4.8,1,1,1,1,0,BURBERRY Touch For Men
+181,182,3,Givenchy,Pi Eau de Toilette,94.0,4.7,1,1,1,1,0,Givenchy Pi Eau de Toilette
+182,183,3,Ralph Lauren,Polo Blue Eau de Parfum,77.0,4.7,1,1,1,1,0,Ralph Lauren Polo Blue Eau de Parfum
+183,184,3,HERMÈS,Un Jardin sur le Toit Eau de Toilette,139.0,4.7,1,1,1,1,0,HERMÈS Un Jardin sur le Toit Eau de Toilette
+184,185,3,Ralph Lauren,Polo Blue Eau de Toilette,70.0,4.7,1,1,1,1,0,Ralph Lauren Polo Blue Eau de Toilette
+185,186,3,DOLCE&GABBANA,Light Blue Eau Intense Pour Homme,125.0,4.8,1,1,1,1,0,DOLCE&GABBANA Light Blue Eau Intense Pour Homme
+186,187,3,Prada,Luna Rossa,112.0,4.8,1,1,1,1,0,Prada Luna Rossa
+187,188,3,Ralph Lauren,Polo Black Eau de Toilette,70.0,4.8,1,1,1,1,0,Ralph Lauren Polo Black Eau de Toilette
+188,189,3,Ralph Lauren,Polo Red,70.0,4.8,1,1,1,1,0,Ralph Lauren Polo Red
+189,190,3,Gucci,Guilty Black Pour Homme,97.0,4.5,1,1,1,1,0,Gucci Guilty Black Pour Homme
+190,191,3,Yves Saint Laurent,L’Homme Parfum Intense,108.0,4.6,1,1,1,1,0,Yves Saint Laurent L’Homme Parfum Intense
+191,192,3,Acqua di Parma,Colonia,66.0,4.3,1,1,1,1,0,Acqua di Parma Colonia
+192,193,3,Yves Saint Laurent,L'Homme Cologne Bleue,95.0,4.6,1,1,1,1,0,Yves Saint Laurent L'Homme Cologne Bleue
+193,194,4,Dermalogica,Biolumin-C Vitamin C Eye Serum,70.0,4.5,1,1,1,1,0,Dermalogica Biolumin-C Vitamin C Eye Serum
+194,195,4,SEPHORA COLLECTION,Brightening Eye Cream – Hydrate & Depuff,17.0,4.0,1,1,1,1,0,SEPHORA COLLECTION Brightening Eye Cream – Hydrate & Depuff
+195,196,4,Jack Black,Protein Booster Eye Rescue,40.0,4.0,1,1,1,1,0,Jack Black Protein Booster Eye Rescue
+196,197,4,CLINIQUE,Clinique For Men Super Energizer™ Anti-Fatigue Depuffing Eye Gel,34.0,5.0,1,1,1,1,0,CLINIQUE Clinique For Men Super Energizer™ Anti-Fatigue Depuffing Eye Gel
+197,198,4,Peter Thomas Roth,Instant FIRMx® Eye Temporary Eye Tightener,38.0,3.6,1,1,1,1,0,Peter Thomas Roth Instant FIRMx® Eye Temporary Eye Tightener
+198,199,4,CLINIQUE,Clinique For Men™ Anti-Age Eye Cream,34.0,4.4,1,1,1,1,0,CLINIQUE Clinique For Men™ Anti-Age Eye Cream
+199,201,4,Jack Black,Eye Balm De-Puffing & Cooling Gel,25.0,4.2,1,1,1,1,0,Jack Black Eye Balm De-Puffing & Cooling Gel
+200,202,4,Kiehl's Since 1851,Age Defender Eye Repair,32.0,3.3,1,1,1,1,0,Kiehl's Since 1851 Age Defender Eye Repair
+201,203,4,CLINIQUE,Clinique For Men™ Maximum Hydrator Eye 96-Hour Hydro-Filler Concentrate,39.5,5.0,1,1,1,1,0,CLINIQUE Clinique For Men™ Maximum Hydrator Eye 96-Hour Hydro-Filler Concentrate
+202,204,4,Lab Series For Men,Age Rescue Eye Therapy,46.0,4.6,1,1,1,1,0,Lab Series For Men Age Rescue Eye Therapy
+203,205,4,Anthony,High Performance Continuous Moisture Eye Cream,40.0,4.2,1,1,1,1,0,Anthony High Performance Continuous Moisture Eye Cream
+204,206,5,Dior,Sauvage Deodorant Stick,25.0,4.6,1,1,1,1,0,Dior Sauvage Deodorant Stick
+205,207,5,Maison Louis Marie,No.04 Bois de Balincourt Deodorant,20.0,4.8,1,1,1,1,0,Maison Louis Marie No.04 Bois de Balincourt Deodorant
+206,208,5,CHANEL,BLEU DE CHANEL Deodorant Stick,25.0,4.4,1,1,1,1,0,CHANEL BLEU DE CHANEL Deodorant Stick
+207,210,5,Dior,Sauvage Deodorant Spray,29.0,4.6,1,1,1,1,0,Dior Sauvage Deodorant Spray
+208,211,5,TOM FORD,Fucking Fabulous All Over Body Spray,95.0,3.8,1,1,1,1,0,TOM FORD Fucking Fabulous All Over Body Spray
+209,212,5,Jack Black,Pit Boss Antiperspirant & Deodorant,19.0,4.2,1,1,1,1,0,Jack Black Pit Boss Antiperspirant & Deodorant
+210,213,5,lululemon selfcare,anti-stink deodorant,12.0,3.5,1,1,1,1,0,lululemon selfcare anti-stink deodorant
+211,214,5,HERMÈS,Terre d’Hermès Deodorant Stick,42.0,4.3,1,1,1,1,0,HERMÈS Terre d’Hermès Deodorant Stick
+212,215,5,Yves Saint Laurent,L’Homme Deodorant,22.0,4.3,1,1,1,1,0,Yves Saint Laurent L’Homme Deodorant
+213,216,5,Acqua di Parma,Colonia Alcohol-Free Deodorant,50.0,3.7,1,1,1,1,0,Acqua di Parma Colonia Alcohol-Free Deodorant
+214,217,5,CLINIQUE,Antiperspirant-Deodorant Stick,16.5,4.4,1,1,1,1,0,CLINIQUE Antiperspirant-Deodorant Stick
+215,218,5,Yves Saint Laurent,Y Deodorant Stick,24.0,5.0,1,1,1,1,0,Yves Saint Laurent Y Deodorant Stick
+216,219,5,Armani Beauty,Acqua Di Gio Deodorant,22.0,0.0,1,1,1,1,0,Armani Beauty Acqua Di Gio Deodorant
+217,220,5,Paco Rabanne,1 Million Deodorant,29.0,4.2,1,1,1,1,0,Paco Rabanne 1 Million Deodorant
+218,221,5,DOLCE&GABBANA,The One For Men Deodorant,29.0,3.6,1,1,1,1,0,DOLCE&GABBANA The One For Men Deodorant
+219,222,5,Ralph Lauren,Polo Black Deodorant Body Spray,23.0,5.0,1,1,1,1,0,Ralph Lauren Polo Black Deodorant Body Spray
+220,223,5,DOLCE&GABBANA,Light Blue Pour Homme Deodorant,29.0,2.9,1,1,1,1,0,DOLCE&GABBANA Light Blue Pour Homme Deodorant
+221,224,5,HERMÈS,Voyage d’Hermès Deodorant Spray,47.0,3.7,1,1,1,1,0,HERMÈS Voyage d’Hermès Deodorant Spray
+222,225,5,Viktor&Rolf,Spicebomb Deodorant Stick,29.0,4.6,1,1,1,1,0,Viktor&Rolf Spicebomb Deodorant Stick
+223,226,5,Ralph Lauren,Polo Blue Body Spray Deodorant,23.0,5.0,1,1,1,1,0,Ralph Lauren Polo Blue Body Spray Deodorant
+224,227,5,Ralph Lauren,Polo Black Deodorant,23.0,5.0,1,1,1,1,0,Ralph Lauren Polo Black Deodorant
+225,228,5,Jack Black,Pit CTRL Aluminum-Free Deodorant,19.0,2.0,1,1,1,1,0,Jack Black Pit CTRL Aluminum-Free Deodorant
+226,229,5,Armani Beauty,Acqua Di Gio Pour Homme Deodorant Body Spray,28.0,4.5,1,1,1,1,0,Armani Beauty Acqua Di Gio Pour Homme Deodorant Body Spray
+227,230,5,L'Occitane,Cedrat Deodorant,19.5,4.3,1,1,1,1,0,L'Occitane Cedrat Deodorant
+228,231,5,TOM FORD,Noir Deodorant Stick,38.0,3.7,1,1,1,1,0,TOM FORD Noir Deodorant Stick
+229,232,6,Briogeo,Detox + Restore Kit ft. Scalp Revival Scalp Scrub Shampoo + Don’t Despair Repair Hair Mask,49.0,4.5,0,0,0,0,0,Briogeo Detox + Restore Kit ft. Scalp Revival Scalp Scrub Shampoo + Don’t Despair Repair Hair Mask
+230,233,6,Christophe Robin,Purifying Detox Hair Set,59.0,0.0,0,0,0,0,0,Christophe Robin Purifying Detox Hair Set
+231,234,6,Moroccanoil,Moroccanoil Treatment Mini,15.0,4.6,0,0,0,0,0,Moroccanoil Moroccanoil Treatment Mini
+232,235,6,Verb,Seriously Hydrating Set,38.0,5.0,0,0,0,0,0,Verb Seriously Hydrating Set
+233,236,6,Pureology,Mini Starter Kit,25.0,4.4,0,0,0,0,0,Pureology Mini Starter Kit
+234,237,6,Bumble and bumble,Bb. sumoclay,29.0,4.6,0,0,0,0,0,Bumble and bumble Bb. sumoclay
+235,238,6,Bumble and bumble,Tonic Lotion,26.0,4.4,0,0,0,0,0,Bumble and bumble Tonic Lotion
+236,239,6,Virtue,Healthy Hair Recovery Collection,59.0,0.0,0,0,0,0,0,Virtue Healthy Hair Recovery Collection
+237,240,6,Bumble and bumble,Styling Creme,27.0,4.0,0,0,0,0,0,Bumble and bumble Styling Creme
+238,241,6,Bumble and bumble,Grooming Creme,31.0,4.2,0,0,0,0,0,Bumble and bumble Grooming Creme
+239,242,6,Jack Black,Epic Moisture™ MP10™ Nourishing Oil,35.0,4.7,0,0,0,0,0,Jack Black Epic Moisture™ MP10™ Nourishing Oil
+240,243,6,Verb,Ghost™ Hairspray,18.0,4.1,0,0,0,0,0,Verb Ghost™ Hairspray
+241,244,6,Bumble and bumble,Surf Infusion,29.0,3.6,0,0,0,0,0,Bumble and bumble Surf Infusion
+242,245,6,Verb,Volume Spray,18.0,3.4,0,0,0,0,0,Verb Volume Spray
+243,246,6,Bumble and bumble,Bb. sumogel,29.0,4.2,0,0,0,0,0,Bumble and bumble Bb. sumogel
+244,247,6,Christophe Robin,Hydrating Leave-in Hair Mist with Aloe Vera,39.0,3.6,0,0,0,0,0,Christophe Robin Hydrating Leave-in Hair Mist with Aloe Vera
+245,248,6,Verb,Sculpting Clay,18.0,4.1,0,0,0,0,0,Verb Sculpting Clay
+246,249,6,Christophe Robin,Hydrating Shampoo with Aloe Vera for Dehydrated Hair,34.0,3.4,0,0,0,0,0,Christophe Robin Hydrating Shampoo with Aloe Vera for Dehydrated Hair
+247,250,6,Jack Black,Clay Pomade,23.0,3.3,0,0,0,0,0,Jack Black Clay Pomade
+248,251,6,Virtue,Smooth Discovery Set - Smooth and Silken,36.0,3.0,0,0,0,0,0,Virtue Smooth Discovery Set - Smooth and Silken
+249,252,6,Jack Black,Body-Building Hair Gel,15.0,4.0,0,0,0,0,0,Jack Black Body-Building Hair Gel
+250,253,6,Jack Black,Sleek Finish Texture Cream,15.0,4.2,0,0,0,0,0,Jack Black Sleek Finish Texture Cream
+251,254,6,SEPHORA COLLECTION,Hold It Together: No-Slip Bobby Pins,5.0,4.3,0,0,0,0,0,SEPHORA COLLECTION Hold It Together: No-Slip Bobby Pins
+252,255,6,Kiehl's Since 1851,Grooming Solutions Clean Styling Gel,18.0,2.0,0,0,0,0,0,Kiehl's Since 1851 Grooming Solutions Clean Styling Gel
+253,256,6,Kiehl's Since 1851,Grooming Solutions Texturizing Clay,18.0,3.0,0,0,0,0,0,Kiehl's Since 1851 Grooming Solutions Texturizing Clay
+254,257,6,Rossano Ferretti Parma,Esperienza #2 Volume Regime,59.0,4.4,0,0,0,0,0,Rossano Ferretti Parma Esperienza #2 Volume Regime
+255,258,6,Rossano Ferretti Parma,Esperienza #3 Nourishing Regime,59.0,0.0,0,0,0,0,0,Rossano Ferretti Parma Esperienza #3 Nourishing Regime
