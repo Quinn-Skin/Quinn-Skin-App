@@ -76,43 +76,29 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
 
 ## Schema 
 ### Models
-#### Post
+#### GET
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   | productId     | String   | return recommended product id from the recommender model |
+   | productName   | String   | full product name |
+   | imageURL      | String   | recommended product image url |
+   | description   | String   | recommended product description |
+   | price         | Integer  | recommended product price |
+   | productURL    | String   | recommended product link to e-commerce site |
+   
    
 ### Networking
 #### List of network requests by screen
-   - Home Feed Screen
-      - (Read/GET) Query all posts where user is author
-         ```swift
-         let query = PFQuery(className:"Post")
-         query.whereKey("author", equalTo: currentUser)
-         query.order(byDescending: "createdAt")
-         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-            if let error = error { 
-               print(error.localizedDescription)
-            } else if let posts = posts {
-               print("Successfully retrieved \(posts.count) posts.")
-           // TODO: Do something with posts...
-            }
-         }
-         ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
-   - Create Post Screen
-      - (Create/POST) Create a new post object
-   - Profile Screen
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
+   - Survey Screen
+      - (Create/POST) send a POST request with user input data gatered through the survey to the recommender model API deployed at Heroku
+   - Recommended Product Screen
+      - (Read/GET) Receive the recommended product inference result
+      - (Read/GET) Receive a product description 
+      - (Read/GET) Receive a product image URL
+      - (Read/GET) Receive the product price
+      - (Read/GET) Receive the product URl directed to the e-commerce site
+      
+ 
+
       
