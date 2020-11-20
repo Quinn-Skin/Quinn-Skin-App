@@ -82,22 +82,30 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
    | ------------- | -------- | ------------|
    | productId     | String   | return recommended product id from the recommender model |
    | productName   | String   | full product name |
-   | imageURL      | String   | recommended product image url |
-   | description   | String   | recommended product description |
-   | price         | Integer  | recommended product price |
-   | productURL    | String   | recommended product link to e-commerce site |
+   | imageURL      | String   | product image url |
+   | description   | String   | product description |
+   | price         | Integer  | product price |
+   | productURL    | String   | product link to e-commerce site |
    
    
 ### Networking
 #### List of network requests by screen
+
    - Survey Screen
-      - (Create/POST) send a POST request with user input data gatered through the survey to the recommender model API deployed at Heroku
+      - (Create/POST) send a POST request with user input data gatered through the survey to the API
    - Recommended Product Screen
       - (Read/GET) Receive the recommended product inference result
       - (Read/GET) Receive a product description 
       - (Read/GET) Receive a product image URL
       - (Read/GET) Receive the product price
       - (Read/GET) Receive the product URl directed to the e-commerce site
+      
+   Note: the team deployed the following API endpoints to Heroku t retrive product details and to get recommender model inference
+   1. product details: https://quinn-server.herokuapp.com/products/:id
+   2. recommende inference : https://quinn-model.herokuapp.com/productid
+   
+    
+    
       
  
 
