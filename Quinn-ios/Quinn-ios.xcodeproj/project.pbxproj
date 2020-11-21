@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64AB35AC25699254004095C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AB35AB25699254004095C2 /* ViewController.swift */; };
+		64AB35B725699B43004095C2 /* Recommended.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AB35B625699B43004095C2 /* Recommended.storyboard */; };
 		64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */; };
 		80BE1E0C378D0633D0B1E5AF /* Pods_Quinn_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */; };
 		A2788EAC2AC4237137171D39 /* Pods_Quinn_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */; };
@@ -41,6 +43,8 @@
 		5060C6781B812A953F77791D /* Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		55F6D22EF65A8CC5BB7D0B7D /* Pods-Quinn-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-iosTests.release.xcconfig"; path = "Target Support Files/Pods-Quinn-iosTests/Pods-Quinn-iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AB35AB25699254004095C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64AB35B625699B43004095C2 /* Recommended.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recommended.storyboard; sourceTree = "<group>"; };
 		64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductViewController.swift; sourceTree = "<group>"; };
 		992343CF08D6FE692B6F5D29 /* Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9ECED4D8B1E280DFCD4C8458 /* Pods-Quinn-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,10 +105,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		64AB35A72569915E004095C2 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E157E273255616EA00DFF91C /* LaunchScreen.storyboard */,
+				E157E26E255616E600DFF91C /* Main.storyboard */,
+				64AB35B625699B43004095C2 /* Recommended.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
 		64C0BE7D256981BE00B39C03 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 				64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */,
+				64AB35AB25699254004095C2 /* ViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -147,12 +162,11 @@
 		E157E267255616E600DFF91C /* Quinn-ios */ = {
 			isa = PBXGroup;
 			children = (
+				64AB35A72569915E004095C2 /* storyboard */,
 				64C0BE7D256981BE00B39C03 /* controllers */,
 				E157E268255616E600DFF91C /* AppDelegate.swift */,
 				E157E26A255616E600DFF91C /* SceneDelegate.swift */,
-				E157E26E255616E600DFF91C /* Main.storyboard */,
 				E157E271255616EA00DFF91C /* Assets.xcassets */,
-				E157E273255616EA00DFF91C /* LaunchScreen.storyboard */,
 				E157E276255616EA00DFF91C /* Info.plist */,
 			);
 			path = "Quinn-ios";
@@ -284,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64AB35B725699B43004095C2 /* Recommended.storyboard in Resources */,
 				E157E275255616EA00DFF91C /* LaunchScreen.storyboard in Resources */,
 				E157E272255616EA00DFF91C /* Assets.xcassets in Resources */,
 				E157E270255616E600DFF91C /* Main.storyboard in Resources */,
@@ -416,6 +431,7 @@
 			files = (
 				64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */,
 				E157E269255616E600DFF91C /* AppDelegate.swift in Sources */,
+				64AB35AC25699254004095C2 /* ViewController.swift in Sources */,
 				E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

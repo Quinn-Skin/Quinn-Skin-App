@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Quinn-ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Quinn-ios
+  pod 'AFNetworking'
+  pod 'BDBOAuth1Manager'
+  pod 'AlamofireImage'
+
+  target 'Quinn-iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Quinn-iosUITests' do
+    # Pods for testing
+  end
+
+end
