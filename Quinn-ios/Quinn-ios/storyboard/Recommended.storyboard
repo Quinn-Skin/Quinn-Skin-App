@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ih-ln-CYe">
-                                <rect key="frame" x="142.5" y="758" width="129" height="39"/>
+                                <rect key="frame" x="99" y="758" width="216" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Back T oMain"/>
+                                <state key="normal" title="Take The Survey Again"/>
                                 <connections>
                                     <segue destination="tOb-35-9U1" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="yTv-7F-NJT"/>
                                 </connections>
@@ -78,7 +78,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yN9-cb-6hi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="241" y="477"/>
+            <point key="canvasLocation" x="241" y="493"/>
         </scene>
     </scenes>
     <resources>
