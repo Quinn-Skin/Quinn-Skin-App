@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */; };
+		80BE1E0C378D0633D0B1E5AF /* Pods_Quinn_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */; };
+		A2788EAC2AC4237137171D39 /* Pods_Quinn_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */; };
+		D68F4E814A0226CC2E2A06DB /* Pods_Quinn_ios_Quinn_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */; };
 		E157E269255616E600DFF91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E268255616E600DFF91C /* AppDelegate.swift */; };
 		E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E26A255616E600DFF91C /* SceneDelegate.swift */; };
-		E157E26D255616E600DFF91C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E26C255616E600DFF91C /* ViewController.swift */; };
 		E157E270255616E600DFF91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157E26E255616E600DFF91C /* Main.storyboard */; };
 		E157E272255616EA00DFF91C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E157E271255616EA00DFF91C /* Assets.xcassets */; };
 		E157E275255616EA00DFF91C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157E273255616EA00DFF91C /* LaunchScreen.storyboard */; };
@@ -35,10 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5060C6781B812A953F77791D /* Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55F6D22EF65A8CC5BB7D0B7D /* Pods-Quinn-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-iosTests.release.xcconfig"; path = "Target Support Files/Pods-Quinn-iosTests/Pods-Quinn-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductViewController.swift; sourceTree = "<group>"; };
+		992343CF08D6FE692B6F5D29 /* Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9ECED4D8B1E280DFCD4C8458 /* Pods-Quinn-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D5C873EF19F08FB728676409 /* Pods-Quinn-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-Quinn-iosTests/Pods-Quinn-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_ios_Quinn_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E157E265255616E600DFF91C /* Quinn-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quinn-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E157E268255616E600DFF91C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E157E26A255616E600DFF91C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E157E26C255616E600DFF91C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E157E26F255616E600DFF91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E157E271255616EA00DFF91C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E157E274255616EA00DFF91C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		E157E286255616EA00DFF91C /* Quinn-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quinn-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E157E28A255616EA00DFF91C /* Quinn_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quinn_iosUITests.swift; sourceTree = "<group>"; };
 		E157E28C255616EA00DFF91C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED36A3BAE7021CD7344A6588 /* Pods-Quinn-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios.debug.xcconfig"; path = "Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BE1E0C378D0633D0B1E5AF /* Pods_Quinn_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2788EAC2AC4237137171D39 /* Pods_Quinn_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68F4E814A0226CC2E2A06DB /* Pods_Quinn_ios_Quinn_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35663EC24B44A64D3C838C9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */,
+				DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */,
+				5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64C0BE7D256981BE00B39C03 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		68A3AB2DCE248284FB94852D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED36A3BAE7021CD7344A6588 /* Pods-Quinn-ios.debug.xcconfig */,
+				9ECED4D8B1E280DFCD4C8458 /* Pods-Quinn-ios.release.xcconfig */,
+				5060C6781B812A953F77791D /* Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig */,
+				992343CF08D6FE692B6F5D29 /* Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig */,
+				D5C873EF19F08FB728676409 /* Pods-Quinn-iosTests.debug.xcconfig */,
+				55F6D22EF65A8CC5BB7D0B7D /* Pods-Quinn-iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E157E25C255616E600DFF91C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +129,8 @@
 				E157E27E255616EA00DFF91C /* Quinn-iosTests */,
 				E157E289255616EA00DFF91C /* Quinn-iosUITests */,
 				E157E266255616E600DFF91C /* Products */,
+				68A3AB2DCE248284FB94852D /* Pods */,
+				35663EC24B44A64D3C838C9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +147,9 @@
 		E157E267255616E600DFF91C /* Quinn-ios */ = {
 			isa = PBXGroup;
 			children = (
+				64C0BE7D256981BE00B39C03 /* controllers */,
 				E157E268255616E600DFF91C /* AppDelegate.swift */,
 				E157E26A255616E600DFF91C /* SceneDelegate.swift */,
-				E157E26C255616E600DFF91C /* ViewController.swift */,
 				E157E26E255616E600DFF91C /* Main.storyboard */,
 				E157E271255616EA00DFF91C /* Assets.xcassets */,
 				E157E273255616EA00DFF91C /* LaunchScreen.storyboard */,
@@ -135,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E157E28F255616EA00DFF91C /* Build configuration list for PBXNativeTarget "Quinn-ios" */;
 			buildPhases = (
+				11B3C134C70631B17D05AE5D /* [CP] Check Pods Manifest.lock */,
 				E157E261255616E600DFF91C /* Sources */,
 				E157E262255616E600DFF91C /* Frameworks */,
 				E157E263255616E600DFF91C /* Resources */,
+				D8C22FC562A645E1D9B70DA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E157E292255616EA00DFF91C /* Build configuration list for PBXNativeTarget "Quinn-iosTests" */;
 			buildPhases = (
+				633146179D55413A350D3A2F /* [CP] Check Pods Manifest.lock */,
 				E157E277255616EA00DFF91C /* Sources */,
 				E157E278255616EA00DFF91C /* Frameworks */,
 				E157E279255616EA00DFF91C /* Resources */,
@@ -170,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E157E295255616EA00DFF91C /* Build configuration list for PBXNativeTarget "Quinn-iosUITests" */;
 			buildPhases = (
+				E8F9410F7F8C5FE8C1D4F09F /* [CP] Check Pods Manifest.lock */,
 				E157E282255616EA00DFF91C /* Sources */,
 				E157E283255616EA00DFF91C /* Frameworks */,
 				E157E284255616EA00DFF91C /* Resources */,
+				69111789F7CD8613CFB5C4CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +306,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11B3C134C70631B17D05AE5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quinn-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633146179D55413A350D3A2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quinn-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69111789F7CD8613CFB5C4CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C22FC562A645E1D9B70DA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F9410F7F8C5FE8C1D4F09F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quinn-ios-Quinn-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E157E261255616E600DFF91C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E157E26D255616E600DFF91C /* ViewController.swift in Sources */,
+				64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */,
 				E157E269255616E600DFF91C /* AppDelegate.swift in Sources */,
 				E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +589,7 @@
 		};
 		E157E290255616EA00DFF91C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED36A3BAE7021CD7344A6588 /* Pods-Quinn-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +608,7 @@
 		};
 		E157E291255616EA00DFF91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECED4D8B1E280DFCD4C8458 /* Pods-Quinn-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +627,7 @@
 		};
 		E157E293255616EA00DFF91C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C873EF19F08FB728676409 /* Pods-Quinn-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +649,7 @@
 		};
 		E157E294255616EA00DFF91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F6D22EF65A8CC5BB7D0B7D /* Pods-Quinn-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +671,7 @@
 		};
 		E157E296255616EA00DFF91C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5060C6781B812A953F77791D /* Pods-Quinn-ios-Quinn-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +691,7 @@
 		};
 		E157E297255616EA00DFF91C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992343CF08D6FE692B6F5D29 /* Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
