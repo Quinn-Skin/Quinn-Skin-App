@@ -107,7 +107,7 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
 
 ## Sprint 1 update
     
-      
+ ![Untitled2](https://user-images.githubusercontent.com/40009989/100488658-81e36080-30dd-11eb-914a-5bde60c8d5ee.gif)     
  
 
       
