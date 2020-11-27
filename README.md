@@ -33,7 +33,7 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
 
 * About page explaining what Quinn is and the process of using it (**in progress**)
 * A simple five-question survey where users select answers (no written response and sharing personal information required) (**completed**)
-* A recommended product page, including product name, description, price, image and a link to view on product e-commerce site (**in progress 80% done **)
+* A recommended product page, including product name, description, price, image and a link to view on product e-commerce site (**in progress 80% done**)
 * Go back to take the survey button for users to search for more products (**in progress**)
 
 
@@ -104,7 +104,8 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
    1. product details: https://quinn-server.herokuapp.com/products/:id
    2. recommende inference : https://quinn-model.herokuapp.com/productid
    
-    
+
+## Sprint 1 update
     
       
  
