@@ -16,11 +16,14 @@ class ScentViewController: UIViewController,UICollectionViewDataSource,UICollect
         let text:String
     }
     struct answer{
-        let id: Int
+        
         let text: String
     }
     let question:Question
-    let answers: [answer] = [answer(id: 1, text:"Citrus"),answer(id: 2, text:"Fresh"),answer(id: 3, text:"Woodsy"),answer(id: 4, text:"None")]
+    let answers: [answer] = [answer(text:"Citrus"),
+                             answer(text:"Fresh"),
+                             answer(text:"Woodsy"),
+                             answer(text:"None")]
     
     @IBOutlet weak var CellLabel: UILabel!
     @IBOutlet weak var ScentCollectionView: UICollectionView!
@@ -40,7 +43,7 @@ class ScentViewController: UIViewController,UICollectionViewDataSource,UICollect
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ScentCell", for: indexPath) as! ScentCell
-        cell.ScentLabel.text = answers[answer.text]
+        cell.ScentLabel.text = answers[indexPath.row] as? String
         
         return cell
     }
