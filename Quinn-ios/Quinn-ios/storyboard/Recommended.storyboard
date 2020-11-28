@@ -70,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="240.57971014492756" y="97.767857142857139"/>
         </scene>
-        <!--Main-->
+        <!--Budget-->
         <scene sceneID="uXf-iX-E9m">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="tOb-35-9U1" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Budget" id="tOb-35-9U1" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="wwd-ag-3ZO"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yN9-cb-6hi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
