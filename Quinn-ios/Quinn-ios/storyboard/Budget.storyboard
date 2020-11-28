@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhr-8b-FPJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Budget View Controller-->
+        <scene sceneID="7DL-bO-5gH">
+            <objects>
+                <viewController id="Fhr-8b-FPJ" customClass="BudgetViewController" customModule="Quinn_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FJj-H3-P29">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your preferred budget?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMx-Pb-PCo">
+                                <rect key="frame" x="20" y="120" width="374" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fg-lQ-cru">
+                                <rect key="frame" x="20" y="214" width="170" height="87"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="3bR-Mg-eHf"/>
+                                    <constraint firstAttribute="height" constant="87" id="yXt-YI-h2U"/>
+                                </constraints>
+                                <state key="normal" title="$25 0r less">
+                                    <color key="titleColor" red="0.90537753809999999" green="0.90537753809999999" blue="0.90537753809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTwintyFiveOrLess:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="cMt-K6-KZ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRt-7c-JBe">
+                                <rect key="frame" x="224" y="214" width="170" height="87"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="dKq-EZ-cCv"/>
+                                    <constraint firstAttribute="height" constant="87" id="jRO-dX-Jf0"/>
+                                </constraints>
+                                <state key="normal" title="$25-50">
+                                    <color key="titleColor" red="0.90537753809999999" green="0.90537753809999999" blue="0.90537753809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTwentyFiveToFifty:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="ySy-Qe-s4a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVy-Rd-42w">
+                                <rect key="frame" x="20" y="343" width="170" height="87"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="luD-7A-fZ8"/>
+                                    <constraint firstAttribute="width" constant="170" id="r5U-dO-PzC"/>
+                                </constraints>
+                                <state key="normal" title="Over $50">
+                                    <color key="titleColor" red="0.90537753809999999" green="0.90537753809999999" blue="0.90537753809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="overFifty:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="GpW-fP-8tc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcC-DT-bhe">
+                                <rect key="frame" x="263" y="809" width="131" height="53"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="4Bk-Ax-CPS"/>
+                                    <constraint firstAttribute="height" constant="53" id="YWZ-di-Ex5"/>
+                                </constraints>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.90537753809999999" green="0.90537753809999999" blue="0.90537753809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6pm-zf-83j"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6pm-zf-83j" firstAttribute="trailing" secondItem="PcC-DT-bhe" secondAttribute="trailing" constant="20" id="Dql-3g-6mc"/>
+                            <constraint firstItem="fMx-Pb-PCo" firstAttribute="top" secondItem="6pm-zf-83j" secondAttribute="top" constant="76" id="KuT-Sc-L5I"/>
+                            <constraint firstItem="sRt-7c-JBe" firstAttribute="top" secondItem="fMx-Pb-PCo" secondAttribute="bottom" constant="64" id="Mh5-cC-3jA"/>
+                            <constraint firstItem="6pm-zf-83j" firstAttribute="trailing" secondItem="fMx-Pb-PCo" secondAttribute="trailing" constant="20" id="O8y-pm-hPJ"/>
+                            <constraint firstItem="fMx-Pb-PCo" firstAttribute="leading" secondItem="6pm-zf-83j" secondAttribute="leading" constant="20" id="OJi-0n-3TB"/>
+                            <constraint firstItem="3Fg-lQ-cru" firstAttribute="top" secondItem="fMx-Pb-PCo" secondAttribute="bottom" constant="64" id="eqc-Oe-p2G"/>
+                            <constraint firstItem="IVy-Rd-42w" firstAttribute="leading" secondItem="6pm-zf-83j" secondAttribute="leading" constant="20" id="etu-Ez-NLi"/>
+                            <constraint firstItem="PcC-DT-bhe" firstAttribute="bottom" secondItem="6pm-zf-83j" secondAttribute="bottom" id="jyC-cB-4nA"/>
+                            <constraint firstItem="3Fg-lQ-cru" firstAttribute="leading" secondItem="6pm-zf-83j" secondAttribute="leading" constant="20" id="skg-qA-BJx"/>
+                            <constraint firstItem="IVy-Rd-42w" firstAttribute="top" secondItem="3Fg-lQ-cru" secondAttribute="bottom" constant="42" id="tbm-yN-6NW"/>
+                            <constraint firstItem="6pm-zf-83j" firstAttribute="trailing" secondItem="sRt-7c-JBe" secondAttribute="trailing" constant="20" id="zId-3F-v2O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nextButton" destination="PcC-DT-bhe" id="lkR-hU-v07"/>
+                        <outlet property="overFiftyButton" destination="IVy-Rd-42w" id="zgI-En-PGV"/>
+                        <outlet property="twentyFiveButton" destination="3Fg-lQ-cru" id="Nvo-O5-Ege"/>
+                        <outlet property="twentyFiveToFiftyButton" destination="sRt-7c-JBe" id="xeW-h2-y2b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hZe-kE-GVs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228.98550724637684" y="77.678571428571431"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="hK8-2c-iZG">
+            <objects>
+                <viewControllerPlaceholder id="mBb-Lo-owE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h6s-jS-v8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="433"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
