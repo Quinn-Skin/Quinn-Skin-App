@@ -26,15 +26,7 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
         
         questionLabel.text = "\(question)"
         
-        
-        
-//        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-//       
-//        layout.minimumLineSpacing = 40
-//        layout.minimumInteritemSpacing = 40
-//        
-//        let width = (view.frame.size.width - 2 * layout.minimumInteritemSpacing)/3
-//        layout.itemSize = CGSize(width: width, height: 3/2)
+       
     }
     
     
