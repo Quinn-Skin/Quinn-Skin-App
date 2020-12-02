@@ -19,6 +19,7 @@ class RecommendedProductViewController: UIViewController {
         super.viewDidLoad()
         
         print(AnswersManager.shared.productId)
+        print(AnswersManager.shared.answers["label"]!!)
 
         // Do any additional setup after loading the view.
     }

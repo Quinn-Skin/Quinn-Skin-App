@@ -28,6 +28,7 @@ class SkinTypeViewController: UIViewController {
         nextButton.layer.cornerRadius = 15
         
         AnswersManager.shared.productId = "10"
+        AnswersManager.shared.answers["label"] = 2
     }
     
     
