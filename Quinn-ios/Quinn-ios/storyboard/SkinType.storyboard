@@ -110,6 +110,7 @@
                                 </state>
                                 <connections>
                                     <action selector="onNext:" destination="Ekr-Dl-G9K" eventType="touchUpInside" id="g4r-Ns-HlT"/>
+                                    <segue destination="0g9-Jr-xdr" kind="presentation" animates="NO" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="n0t-5Z-iQv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -136,6 +137,7 @@
                     </view>
                     <connections>
                         <outlet property="ComboButton" destination="jFc-BG-Had" id="GuP-9S-uC4"/>
+                        <outlet property="comboButton" destination="jFc-BG-Had" id="miQ-iT-T2M"/>
                         <outlet property="dryButton" destination="7C3-eG-taV" id="lfn-hj-uRL"/>
                         <outlet property="nextButton" destination="wuC-pD-8DO" id="8zh-6g-1GN"/>
                         <outlet property="normalButton" destination="Dm8-iQ-kmx" id="4EP-31-dJO"/>
@@ -146,6 +148,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tby-iR-juW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-179.71014492753625" y="62.946428571428569"/>
+        </scene>
+        <!--Recommended-->
+        <scene sceneID="rcb-30-spF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Recommended" id="0g9-Jr-xdr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Y1k-yF-vpS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h3F-xB-8X4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-179" y="462"/>
         </scene>
     </scenes>
     <resources>
