@@ -18,12 +18,13 @@ class RecommendedProductViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(AnswersManager.shared.productId)
 
         // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        self.recommmendedProduct(id: "4")
+        self.recommmendedProduct(id: AnswersManager.shared.productId)
     }
     func recommmendedProduct(id: String) -> Void {
         let url = URL(string: "https://quinn-server.herokuapp.com/products/\(id)")!

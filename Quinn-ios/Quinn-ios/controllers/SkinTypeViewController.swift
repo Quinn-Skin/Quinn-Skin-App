@@ -26,8 +26,8 @@ class SkinTypeViewController: UIViewController {
         oilyButton.layer.cornerRadius = 15
         comboButton.layer.cornerRadius = 15
         nextButton.layer.cornerRadius = 15
-    
-       
+        
+        AnswersManager.shared.productId = "10"
     }
     
     
