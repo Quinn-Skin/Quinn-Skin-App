@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		642046342571F6A500F98116 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642046332571F6A500F98116 /* BudgetViewController.swift */; };
 		642046392571F6D400F98116 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642046382571F6D400F98116 /* Budget.storyboard */; };
+		646BF52125782A0500BDDD17 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646BF52025782A0500BDDD17 /* Model.swift */; };
 		6484AB96257817C600C71C8A /* AnswerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6484AB95257817C600C71C8A /* AnswerManager.swift */; };
 		64AB35AC25699254004095C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AB35AB25699254004095C2 /* ViewController.swift */; };
 		64AB35B725699B43004095C2 /* Recommended.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64AB35B625699B43004095C2 /* Recommended.storyboard */; };
@@ -50,6 +51,7 @@
 		5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		642046332571F6A500F98116 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BudgetViewController.swift; path = "Quinn-ios/controllers/BudgetViewController.swift"; sourceTree = SOURCE_ROOT; };
 		642046382571F6D400F98116 /* Budget.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		646BF52025782A0500BDDD17 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6484AB95257817C600C71C8A /* AnswerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerManager.swift; sourceTree = "<group>"; };
 		64AB35AB25699254004095C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64AB35B625699B43004095C2 /* Recommended.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recommended.storyboard; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				E157E271255616EA00DFF91C /* Assets.xcassets */,
 				E157E276255616EA00DFF91C /* Info.plist */,
 				6484AB95257817C600C71C8A /* AnswerManager.swift */,
+				646BF52025782A0500BDDD17 /* Model.swift */,
 			);
 			path = "Quinn-ios";
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */,
 				6484AB96257817C600C71C8A /* AnswerManager.swift in Sources */,
 				7EF020AD2571F830008B98A1 /* SkinTypeViewController.swift in Sources */,
+				646BF52125782A0500BDDD17 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

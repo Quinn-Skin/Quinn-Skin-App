@@ -39,6 +39,8 @@ class BudgetViewController: UIViewController {
         overFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
         self.answer = "$25-$50"
         print(self.answer)
+        
+        
     }
     
     @IBAction func overFifty(_ sender: Any) {

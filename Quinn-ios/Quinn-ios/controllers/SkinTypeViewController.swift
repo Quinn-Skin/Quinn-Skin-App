@@ -8,7 +8,6 @@
 import UIKit
 
 class SkinTypeViewController: UIViewController {
-
     @IBOutlet weak var normalButton: UIButton!
     @IBOutlet weak var sensitiveButton: UIButton!
     @IBOutlet weak var dryButton: UIButton!
@@ -27,8 +26,9 @@ class SkinTypeViewController: UIViewController {
         comboButton.layer.cornerRadius = 15
         nextButton.layer.cornerRadius = 15
         
-        AnswersManager.shared.productId = "10"
-        AnswersManager.shared.answers["label"] = 2
+//        AnswersManager.shared.productId = "10"
+        AnswersManager.shared.answers["sensitive"] = 1
+        self.modelCaller()
     }
     
     
@@ -72,6 +72,7 @@ class SkinTypeViewController: UIViewController {
         self.oilyButton.backgroundColor = UIColor.blue
         self.comboButton.backgroundColor = UIColor.blue
         self.userAnswer = "dry"
+        AnswersManager.shared.answers["dry"] = 1
         print(userAnswer)
      }
     
@@ -81,6 +82,7 @@ class SkinTypeViewController: UIViewController {
         self.sensitiveButton.backgroundColor = UIColor.blue
         self.oilyButton.backgroundColor = UIColor.blue
         self.dryButton.backgroundColor = UIColor.blue
+        AnswersManager.shared.answers["combination"] = 1
         
         self.userAnswer = "combo"
         print(userAnswer)
@@ -93,7 +95,42 @@ class SkinTypeViewController: UIViewController {
     }
     
     
-    
+    func modelCaller() -> Void {
+       
+        //let parameters = ["Label":2,"price":10,"score":5,"Combination":1,"Dry":0,"Normal":1,"Oily":0,"Sensitive":1]
+        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
+
+        let url = URL(string: "https://quinn-model.herokuapp.com/productid")
+        let session = URLSession.shared
+
+        var request = URLRequest(url: url!)
+        request.httpMethod = "POST"
+
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: parameters,options: JSONSerialization.WritingOptions.prettyPrinted)
+            
+        } catch let error{
+            print(error.localizedDescription)
+        }
+
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+
+
+        let task = session.uploadTask(with: request as URLRequest,from: request.httpBody) {data, response,error in
+            guard error == nil else{
+                return
+            }
+            
+        //    print(response)
+            
+            if let data = data, let dataString = String(data:data,encoding: .utf8) {
+                print(dataString)
+                AnswersManager.shared.productId = dataString
+            }
+        }
+        task.resume()
+    }
     
     
     /*
