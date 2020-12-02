@@ -149,15 +149,15 @@
             </objects>
             <point key="canvasLocation" x="-199" y="13"/>
         </scene>
-        <!--Recommended-->
+        <!--Budget-->
         <scene sceneID="rcb-30-spF">
             <objects>
-                <viewControllerPlaceholder storyboardName="Recommended" id="0g9-Jr-xdr" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Budget" id="0g9-Jr-xdr" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Y1k-yF-vpS"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3F-xB-8X4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-179" y="462"/>
+            <point key="canvasLocation" x="-200" y="399"/>
         </scene>
     </scenes>
     <resources>
