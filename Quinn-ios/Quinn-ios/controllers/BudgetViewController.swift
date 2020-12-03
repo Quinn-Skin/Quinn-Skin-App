@@ -22,20 +22,53 @@ class BudgetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.modelCaller()
         
         twentyFiveButton.layer.cornerRadius = CGFloat(cornerRadius)
         twentyFiveToFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
         overFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
         nextButton.layer.cornerRadius = CGFloat(cornerRadius)
+        
+//        AnswersManager.shared.productId = "2"
+        
+        //let parameters = ["Label":2,"price":10,"score":5,"Combination":1,"Dry":0,"Normal":1,"Oily":0,"Sensitive":1]
+        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
+
+        let url = URL(string: "https://quinn-model.herokuapp.com/productid")
+        let session = URLSession.shared
+
+        var request = URLRequest(url: url!)
+        request.httpMethod = "POST"
+
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: parameters,options: JSONSerialization.WritingOptions.prettyPrinted)
+            
+        } catch let error{
+            print(error.localizedDescription)
+        }
+
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+
+
+        let task = session.uploadTask(with: request as URLRequest,from: request.httpBody) {data, response,error in
+            guard error == nil else{
+                return
+            }
+        
+            if let data = data, let dataString = String(data:data,encoding: .utf8) {
+                AnswersManager.shared.productId = dataString
+//                AnswersManager.shared.productId = "12"
+            }
+        }
+        task.resume()
+        
     }
     
     @IBAction func onTwintyFiveOrLess(_ sender: Any) {
         twentyFiveButton.layer.backgroundColor =  leatherColor.cgColor
         twentyFiveToFiftyButton.layer.backgroundColor = creamColor.cgColor
         overFiftyButton.layer.backgroundColor = creamColor.cgColor
-        
-        AnswersManager.shared.answers["price"] = 25
-        print(AnswersManager.shared.answers["price"]!!)
     }
     
     @IBAction func onTwentyFiveToFifty(_ sender: Any) {
@@ -44,7 +77,7 @@ class BudgetViewController: UIViewController {
         overFiftyButton.layer.backgroundColor = creamColor.cgColor
         
         AnswersManager.shared.answers["price"] = 50
-        print(AnswersManager.shared.answers["price"]!!)
+//        print(AnswersManager.shared.answers["price"]!!)
     }
     
     @IBAction func overFifty(_ sender: Any) {
@@ -53,6 +86,46 @@ class BudgetViewController: UIViewController {
         overFiftyButton.layer.backgroundColor = leatherColor.cgColor
         
         AnswersManager.shared.answers["price"] = 60
-        print(AnswersManager.shared.answers["price"]!!)
+//        print(AnswersManager.shared.answers["price"]!!)
+    }
+    
+    @IBAction func onNext(_ sender: Any) {
+        nextButton.layer.backgroundColor = leatherColor.cgColor
+       
+    }
+    
+    func modelCaller() -> Void {
+       
+        //let parameters = ["Label":2,"price":10,"score":5,"Combination":1,"Dry":0,"Normal":1,"Oily":0,"Sensitive":1]
+        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
+
+        let url = URL(string: "https://quinn-model.herokuapp.com/productid")
+        let session = URLSession.shared
+
+        var request = URLRequest(url: url!)
+        request.httpMethod = "POST"
+
+        do {
+            request.httpBody = try JSONSerialization.data(withJSONObject: parameters,options: JSONSerialization.WritingOptions.prettyPrinted)
+            
+        } catch let error{
+            print(error.localizedDescription)
+        }
+
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("application/json", forHTTPHeaderField: "Accept")
+
+
+        let task = session.uploadTask(with: request as URLRequest,from: request.httpBody) {data, response,error in
+            guard error == nil else{
+                return
+            }
+        
+            if let data = data, let dataString = String(data:data,encoding: .utf8) {
+                AnswersManager.shared.productId = "\(dataString)"
+                print(dataString)
+            }
+        }
+        task.resume()
     }
 }

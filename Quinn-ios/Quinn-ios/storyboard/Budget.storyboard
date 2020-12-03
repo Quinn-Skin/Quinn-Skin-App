@@ -92,6 +92,7 @@
                                     <color key="titleColor" red="0.90537753809999999" green="0.90537753809999999" blue="0.90537753809999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="onNext:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="eJc-pY-3ub"/>
                                     <segue destination="mBb-Lo-owE" kind="presentation" modalPresentationStyle="fullScreen" id="OCf-J0-0NL"/>
                                 </connections>
                             </button>

@@ -7,7 +7,7 @@ import UIKit
 
 class AnswersManager {
     static var shared = AnswersManager()
-    var productId : String = ""
+    var productId = ""
     var answers = [
         "label": nil,
         "price": 30,
