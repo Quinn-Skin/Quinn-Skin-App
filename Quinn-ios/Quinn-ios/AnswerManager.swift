@@ -12,12 +12,12 @@ class AnswersManager {
     var productId : String = ""
     var answers = [
         "label": nil,
-        "price": nil,
-        "combination": nil,
-        "normal": nil,
-        "oily": nil,
-        "sensitive": nil
+        "price": 30,
+        "score": 4,
+        "dry": 0,
+        "combination": 0,
+        "normal": 0,
+        "oily": 0,
+        "sensitive": 0
     ] as [String : Any?]
-    
 }
-
