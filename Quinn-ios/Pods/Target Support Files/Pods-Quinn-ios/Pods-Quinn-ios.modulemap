@@ -1,0 +1,6 @@
+framework module Pods_Quinn_ios {
+  umbrella header "Pods-Quinn-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
