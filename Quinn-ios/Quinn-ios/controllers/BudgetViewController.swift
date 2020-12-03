@@ -21,8 +21,6 @@ class BudgetViewController: UIViewController {
         twentyFiveToFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
         overFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
         nextButton.layer.cornerRadius = CGFloat(cornerRadius)
-        self.answer = "25 or Less"
-        print(self.answer)
     }
     
     @IBAction func onTwintyFiveOrLess(_ sender: Any) {
@@ -30,7 +28,8 @@ class BudgetViewController: UIViewController {
         twentyFiveToFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
         overFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
         self.answer = "25 or Less"
-        print(self.answer)
+        AnswersManager.shared.answers["price"] = 25
+        print(AnswersManager.shared.answers["price"]!!)
     }
     
     @IBAction func onTwentyFiveToFifty(_ sender: Any) {
@@ -38,9 +37,8 @@ class BudgetViewController: UIViewController {
         twentyFiveToFiftyButton.layer.backgroundColor = UIColor.red.cgColor
         overFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
         self.answer = "$25-$50"
-        print(self.answer)
-        
-        
+        AnswersManager.shared.answers["price"] = 50
+        print(AnswersManager.shared.answers["price"]!!)
     }
     
     @IBAction func overFifty(_ sender: Any) {
@@ -48,6 +46,7 @@ class BudgetViewController: UIViewController {
         twentyFiveToFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
         overFiftyButton.layer.backgroundColor = UIColor.red.cgColor
         self.answer = "Over $50"
-        print(self.answer)
+        AnswersManager.shared.answers["price"] = 60
+        print(AnswersManager.shared.answers["price"]!!)
     }
 }
