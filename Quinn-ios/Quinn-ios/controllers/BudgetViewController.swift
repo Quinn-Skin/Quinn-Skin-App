@@ -16,8 +16,9 @@ class BudgetViewController: UIViewController {
     let cornerRadius = 20
 
 //  colors
-    let tungstenColor = UIColor(red: 117.0/255.0, green: 110.0/255.0, blue: 53.0/255.0, alpha: 1.0)
-    let darkColor = UIColor(red: 32.0/255.0, green: 34.0/255.0, blue: 37.0/255.5, alpha: 1.0)
+    let leatherColor = UIColor(red: 254.0/255.0, green: 150.0/255.0, blue: 0/255.0, alpha: 1.0)
+    let greenColor = UIColor(red: 32.0/255.0, green: 34.0/255.0, blue: 37.0/255.5, alpha: 1.0)
+    let creamColor = UIColor(red: 252.0/255.0, green: 249.0/255.0, blue: 226.0/255.5, alpha: 1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,26 +30,27 @@ class BudgetViewController: UIViewController {
     }
     
     @IBAction func onTwintyFiveOrLess(_ sender: Any) {
-        twentyFiveButton.layer.backgroundColor =  UIColor(red: 177, green: 110, blue: 53, alpha: 1).cgColor
-        twentyFiveToFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
-        overFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
+        twentyFiveButton.layer.backgroundColor =  leatherColor.cgColor
+        twentyFiveToFiftyButton.layer.backgroundColor = creamColor.cgColor
+        overFiftyButton.layer.backgroundColor = creamColor.cgColor
         
         AnswersManager.shared.answers["price"] = 25
         print(AnswersManager.shared.answers["price"]!!)
     }
     
     @IBAction func onTwentyFiveToFifty(_ sender: Any) {
-        twentyFiveButton.layer.backgroundColor = UIColor.blue.cgColor
-        twentyFiveToFiftyButton.layer.backgroundColor = UIColor.red.cgColor
-        overFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
+        twentyFiveButton.layer.backgroundColor =  creamColor.cgColor
+        twentyFiveToFiftyButton.layer.backgroundColor = leatherColor.cgColor
+        overFiftyButton.layer.backgroundColor = creamColor.cgColor
+        
         AnswersManager.shared.answers["price"] = 50
         print(AnswersManager.shared.answers["price"]!!)
     }
     
     @IBAction func overFifty(_ sender: Any) {
-        twentyFiveButton.layer.backgroundColor = UIColor.blue.cgColor
-        twentyFiveToFiftyButton.layer.backgroundColor = UIColor.blue.cgColor
-        overFiftyButton.layer.backgroundColor = UIColor.red.cgColor
+        twentyFiveButton.layer.backgroundColor =  creamColor.cgColor
+        twentyFiveToFiftyButton.layer.backgroundColor = creamColor.cgColor
+        overFiftyButton.layer.backgroundColor = leatherColor.cgColor
         
         AnswersManager.shared.answers["price"] = 60
         print(AnswersManager.shared.answers["price"]!!)
