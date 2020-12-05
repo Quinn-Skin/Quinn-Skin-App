@@ -64,7 +64,6 @@ class BudgetViewController: UIViewController {
             }
         }
         task.resume()
-        
     }
     
     @IBAction func onTwintyFiveOrLess(_ sender: Any) {

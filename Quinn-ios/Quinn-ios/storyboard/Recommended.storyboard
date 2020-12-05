@@ -72,8 +72,8 @@
                                     <color key="titleColor" red="0.12549019610000001" green="0.1333333333" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KR1-FE-tzF">
-                                <rect key="frame" x="194" y="739" width="26" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$30.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KR1-FE-tzF">
+                                <rect key="frame" x="172" y="739" width="70" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -127,6 +127,8 @@
                         <outlet property="productDescription" destination="TuT-3w-RLW" id="VBX-rS-VAa"/>
                         <outlet property="productImage" destination="99g-dY-Vi4" id="aUn-xX-uoF"/>
                         <outlet property="productName" destination="t39-UZ-8Y4" id="ihI-Ht-Hb0"/>
+                        <outlet property="scoreImage" destination="4ey-tZ-rob" id="t62-pj-mFm"/>
+                        <outlet property="starsLabel" destination="Z5m-Kg-xJt" id="qDK-yT-LXx"/>
                         <outlet property="viewDetailsButton" destination="btw-UG-N0b" id="yVG-Sg-vZ1"/>
                     </connections>
                 </viewController>
