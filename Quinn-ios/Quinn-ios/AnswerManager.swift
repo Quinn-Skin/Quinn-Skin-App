@@ -16,6 +16,13 @@ class AnswersManager {
         "combination": 0,
         "normal": 0,
         "oily": 0,
-        "sensitive": 0
+        "sensitive": 0,
+        "cleanser": 0,
+        "moisturizer": 0,
+        "shavingKits": 0,
+        "fragrance": 0,
+        "eyeCream": 0,
+        "deodorant": 0
     ] as [String : Any?]
 }
+

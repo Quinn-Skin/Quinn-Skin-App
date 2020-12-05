@@ -13,6 +13,7 @@ class BudgetViewController: UIViewController {
     @IBOutlet weak var twentyFiveToFiftyButton: UIButton!
     @IBOutlet weak var overFiftyButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var messageView: UIView!
     let cornerRadius = 20
 
 //  colors
@@ -28,6 +29,7 @@ class BudgetViewController: UIViewController {
         twentyFiveToFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
         overFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
         nextButton.layer.cornerRadius = CGFloat(cornerRadius)
+        messageView.layer.cornerRadius = CGFloat(cornerRadius)
         
 //        AnswersManager.shared.productId = "2"
         
@@ -62,7 +64,6 @@ class BudgetViewController: UIViewController {
             }
         }
         task.resume()
-        
     }
     
     @IBAction func onTwintyFiveOrLess(_ sender: Any) {
@@ -122,7 +123,7 @@ class BudgetViewController: UIViewController {
             }
         
             if let data = data, let dataString = String(data:data,encoding: .utf8) {
-                AnswersManager.shared.productId = "\(dataString)"
+                AnswersManager.shared.productId = "\(1)"
                 print(dataString)
             }
         }

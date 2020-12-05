@@ -115,6 +115,7 @@
                     </view>
                     <connections>
                         <outlet property="VCView" destination="FJj-H3-P29" id="V7h-hC-9Sk"/>
+                        <outlet property="messageView" destination="UIA-co-Zvu" id="RFx-mU-hQd"/>
                         <outlet property="nextButton" destination="PcC-DT-bhe" id="lkR-hU-v07"/>
                         <outlet property="overFiftyButton" destination="IVy-Rd-42w" id="zgI-En-PGV"/>
                         <outlet property="twentyFiveButton" destination="3Fg-lQ-cru" id="Nvo-O5-Ege"/>
