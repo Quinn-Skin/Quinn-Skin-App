@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="-233" y="98"/>
         </scene>
-        <!--SkinType-->
+        <!--Recommended-->
         <scene sceneID="r2y-Qd-hep">
             <objects>
-                <viewControllerPlaceholder storyboardName="SkinType" id="gYq-RA-yOH" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Recommended" id="gYq-RA-yOH" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="8Ah-oE-GSf"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2d2-54-dGT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
