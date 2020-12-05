@@ -7,21 +7,6 @@
 
 import UIKit
 
-class answerManager {
-    static var shared = answerManager()
-    var productId : String = ""
-    var answers = [
-        "label": nil,
-        "price" : 30,
-        "score" : 4,
-        "dry" : 0,
-        "combination": 0,
-        "normal" : 0,
-        "oily" : 0,
-        "sensitive" : 0
-    ] as [String : Any?]
-}
-
 struct Answer{
   let text: String
   var selected: Bool
@@ -31,8 +16,6 @@ struct Question {
     let text:String
     var answers: [Answer]
 }
-
-
 
 class TestViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
    
@@ -131,7 +114,7 @@ class TestViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let currentQuestion = surveyModels[questionIndex]
         
 //        cell.answerLabel.text = currentQuestion.answers[indexPath.item].text
-//        cell.isSelected = (lastSelectedIndexPath == indexPath)
+        cell.isSelected = (lastSelectedIndexPath == indexPath)
         cell.answerButton.text = currentQuestion.answers[indexPath.item].text
 
         return cell
@@ -148,8 +131,10 @@ class TestViewController: UIViewController, UICollectionViewDelegate, UICollecti
         lastSelectedIndexPath = indexPath
             
         selectedAnswer.append(lastSelectedIndexPath!)
+        
         let getSlecetedAnswer = surveyModels[0].answers[selectedAnswer[selectedAnswer.count - 1][1]].text
         self.updateAnswers(answers: getSlecetedAnswer)
+        
         collectionView.deselectItem(at: indexPath, animated: true)
     }
     
@@ -205,7 +190,7 @@ class TestViewController: UIViewController, UICollectionViewDelegate, UICollecti
             
             if let data = data, let dataString = String(data:data,encoding: .utf8) {
                 print(dataString)
-                answerManager.shared.productId = dataString
+                AnswersManager.shared.productId = dataString
             }
         }
         task.resume()
