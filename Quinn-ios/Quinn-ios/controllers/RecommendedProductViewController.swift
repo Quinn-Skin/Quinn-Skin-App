@@ -14,6 +14,7 @@ class RecommendedProductViewController: UIViewController {
     @IBOutlet weak var viewDetailsButton: UIButton!
     //    @IBOutlet weak var circleView: UIView!
     var produts = [String : Any]()
+    var urltoShare = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,9 +35,10 @@ class RecommendedProductViewController: UIViewController {
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 self.produts = dataDictionary["Produt"] as! [String : Any]
 //                print(self.produts)
+                self.urltoShare = (self.produts["url"] as? String)!
 
                 // Product Image
-                let imageUrl = self.produts["image_url"] as? String
+//                let imageUrl = self.produts["image_url"] as? String
                 let formatedImageUrl = URL(string: "https://www.sephora.com/productimages/sku/s2002087-main-zoom.jpg?imwidth=600")
                 self.productImage.af_setImage(withURL: formatedImageUrl!)
 
@@ -50,7 +52,11 @@ class RecommendedProductViewController: UIViewController {
          }
          task.resume()
     }
+    
     @IBAction func sharedProduct(_ sender: Any) {
+        let activityVC = UIActivityViewController(activityItems: [urltoShare], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        self.present(activityVC, animated: true, completion: nil)
         
     }
 }
