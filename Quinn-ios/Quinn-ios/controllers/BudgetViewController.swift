@@ -7,14 +7,13 @@
 
 import UIKit
 
-class BudgetViewController: UIViewController {
+class BudgetViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     @IBOutlet var VCView: UIView!
-    @IBOutlet weak var twentyFiveButton: UIButton!
-    @IBOutlet weak var twentyFiveToFiftyButton: UIButton!
-    @IBOutlet weak var overFiftyButton: UIButton!
-    @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var messageView: UIView!
+    @IBOutlet weak var budgetCollectionView: UICollectionView!
+    
     let cornerRadius = 20
+    var answers = ["$25 Or Less", "$25-$50", "Over $50"]
 
 //  colors
     let leatherColor = UIColor(red: 254.0/255.0, green: 150.0/255.0, blue: 0/255.0, alpha: 1.0)
@@ -23,110 +22,30 @@ class BudgetViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.modelCaller()
         
-        twentyFiveButton.layer.cornerRadius = CGFloat(cornerRadius)
-        twentyFiveToFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
-        overFiftyButton.layer.cornerRadius = CGFloat(cornerRadius)
-        nextButton.layer.cornerRadius = CGFloat(cornerRadius)
+        budgetCollectionView.dataSource = self
+        budgetCollectionView.delegate = self
         messageView.layer.cornerRadius = CGFloat(cornerRadius)
-        
-//        AnswersManager.shared.productId = "2"
-        
-        //let parameters = ["Label":2,"price":10,"score":5,"Combination":1,"Dry":0,"Normal":1,"Oily":0,"Sensitive":1]
-        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
-
-        let url = URL(string: "https://quinn-model.herokuapp.com/productid")
-        let session = URLSession.shared
-
-        var request = URLRequest(url: url!)
-        request.httpMethod = "POST"
-
-        do {
-            request.httpBody = try JSONSerialization.data(withJSONObject: parameters,options: JSONSerialization.WritingOptions.prettyPrinted)
-            
-        } catch let error{
-            print(error.localizedDescription)
-        }
-
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-
-
-        let task = session.uploadTask(with: request as URLRequest,from: request.httpBody) {data, response,error in
-            guard error == nil else{
-                return
-            }
-        
-            if let data = data, let dataString = String(data:data,encoding: .utf8) {
-                AnswersManager.shared.productId = dataString
-//                AnswersManager.shared.productId = "12"
-            }
-        }
-        task.resume()
     }
     
-    @IBAction func onTwintyFiveOrLess(_ sender: Any) {
-        twentyFiveButton.layer.backgroundColor =  leatherColor.cgColor
-        twentyFiveToFiftyButton.layer.backgroundColor = creamColor.cgColor
-        overFiftyButton.layer.backgroundColor = creamColor.cgColor
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.answers.count
     }
     
-    @IBAction func onTwentyFiveToFifty(_ sender: Any) {
-        twentyFiveButton.layer.backgroundColor =  creamColor.cgColor
-        twentyFiveToFiftyButton.layer.backgroundColor = leatherColor.cgColor
-        overFiftyButton.layer.backgroundColor = creamColor.cgColor
-        
-        AnswersManager.shared.answers["price"] = 50
-//        print(AnswersManager.shared.answers["price"]!!)
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BudgetCell", for: indexPath) as! BudgetCell
+        cell.answerButton.text = self.answers[indexPath.row]
+        return cell
     }
     
-    @IBAction func overFifty(_ sender: Any) {
-        twentyFiveButton.layer.backgroundColor =  creamColor.cgColor
-        twentyFiveToFiftyButton.layer.backgroundColor = creamColor.cgColor
-        overFiftyButton.layer.backgroundColor = leatherColor.cgColor
-        
-        AnswersManager.shared.answers["price"] = 60
-//        print(AnswersManager.shared.answers["price"]!!)
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedCell = collectionView.cellForItem(at: indexPath) as! BudgetCell
+        print(self.answers[indexPath.row])
+        selectedCell.layer.backgroundColor = self.leatherColor.cgColor
     }
     
-    @IBAction func onNext(_ sender: Any) {
-        nextButton.layer.backgroundColor = leatherColor.cgColor
-       
-    }
-    
-    func modelCaller() -> Void {
-       
-        //let parameters = ["Label":2,"price":10,"score":5,"Combination":1,"Dry":0,"Normal":1,"Oily":0,"Sensitive":1]
-        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
-
-        let url = URL(string: "https://quinn-model.herokuapp.com/productid")
-        let session = URLSession.shared
-
-        var request = URLRequest(url: url!)
-        request.httpMethod = "POST"
-
-        do {
-            request.httpBody = try JSONSerialization.data(withJSONObject: parameters,options: JSONSerialization.WritingOptions.prettyPrinted)
-            
-        } catch let error{
-            print(error.localizedDescription)
-        }
-
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("application/json", forHTTPHeaderField: "Accept")
-
-
-        let task = session.uploadTask(with: request as URLRequest,from: request.httpBody) {data, response,error in
-            guard error == nil else{
-                return
-            }
-        
-            if let data = data, let dataString = String(data:data,encoding: .utf8) {
-                AnswersManager.shared.productId = "\(1)"
-                print(dataString)
-            }
-        }
-        task.resume()
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        let selectedCell = collectionView.cellForItem(at: indexPath) as! BudgetCell
+        selectedCell.layer.backgroundColor = self.creamColor.cgColor
     }
 }
