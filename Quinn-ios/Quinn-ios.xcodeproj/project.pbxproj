@@ -19,6 +19,8 @@
 		80BE1E0C378D0633D0B1E5AF /* Pods_Quinn_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */; };
 		A2788EAC2AC4237137171D39 /* Pods_Quinn_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE9F1D3A55B8E4B07691648 /* Pods_Quinn_iosTests.framework */; };
 		D68F4E814A0226CC2E2A06DB /* Pods_Quinn_ios_Quinn_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */; };
+		D8ABE1F3257ED9B5000183C1 /* ScentType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ABE1F2257ED9B5000183C1 /* ScentType.storyboard */; };
+		D8ABE1F5257ED9E1000183C1 /* ScentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ABE1F4257ED9E1000183C1 /* ScentViewController.swift */; };
 		E157E269255616E600DFF91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E268255616E600DFF91C /* AppDelegate.swift */; };
 		E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E26A255616E600DFF91C /* SceneDelegate.swift */; };
 		E157E270255616E600DFF91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157E26E255616E600DFF91C /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 		992343CF08D6FE692B6F5D29 /* Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9ECED4D8B1E280DFCD4C8458 /* Pods-Quinn-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios/Pods-Quinn-ios.release.xcconfig"; sourceTree = "<group>"; };
 		D5C873EF19F08FB728676409 /* Pods-Quinn-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-Quinn-iosTests/Pods-Quinn-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8ABE1F2257ED9B5000183C1 /* ScentType.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScentType.storyboard; sourceTree = "<group>"; };
+		D8ABE1F4257ED9E1000183C1 /* ScentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScentViewController.swift; sourceTree = "<group>"; };
 		D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_ios_Quinn_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E157E265255616E600DFF91C /* Quinn-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quinn-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +129,7 @@
 				64AB35B625699B43004095C2 /* Recommended.storyboard */,
 				7EF020A72571F7F5008B98A1 /* SkinType.storyboard */,
 				642046382571F6D400F98116 /* Budget.storyboard */,
+				D8ABE1F2257ED9B5000183C1 /* ScentType.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */,
 				64AB35AB25699254004095C2 /* ViewController.swift */,
 				7EF020AC2571F830008B98A1 /* SkinTypeViewController.swift */,
+				D8ABE1F4257ED9E1000183C1 /* ScentViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				E157E275255616EA00DFF91C /* LaunchScreen.storyboard in Resources */,
 				7EF020A82571F7F5008B98A1 /* SkinType.storyboard in Resources */,
 				E157E272255616EA00DFF91C /* Assets.xcassets in Resources */,
+				D8ABE1F3257ED9B5000183C1 /* ScentType.storyboard in Resources */,
 				E157E270255616E600DFF91C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +458,7 @@
 			files = (
 				64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */,
 				E157E269255616E600DFF91C /* AppDelegate.swift in Sources */,
+				D8ABE1F5257ED9E1000183C1 /* ScentViewController.swift in Sources */,
 				642046342571F6A500F98116 /* BudgetViewController.swift in Sources */,
 				64AB35AC25699254004095C2 /* ViewController.swift in Sources */,
 				E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */,
