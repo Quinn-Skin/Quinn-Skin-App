@@ -11,7 +11,7 @@ class AnswersManager {
     static var shared = AnswersManager()
     var productId : String = ""
     var answers = [
-        "label": nil,
+        "label": 2,
         "price" : 30,
         "score" : 4,
         "dry" : 0,
@@ -20,7 +20,6 @@ class AnswersManager {
         "oily" : 0,
         "sensitive" : 0
     ] as [String : Any?]
-    
 }
 
 
@@ -55,6 +54,7 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
         layout.itemSize = CGSize(width: width * 0.8, height: width * 0.5)
         
         questionLabel.layer.cornerRadius = 40
+        modelPredict()
      
             
     }
@@ -165,19 +165,34 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
     
+    @IBAction func onSubmit(_ sender: Any) {
+        modelPredict()
+    }
+    
+    
     private func newViewController(){
         let storyboard = UIStoryboard(name:"Main", bundle: nil)
         let surveyViewController = storyboard.instantiateViewController(identifier: "SurveyViewController") as! SurveyViewController
         surveyViewController.questionIndex = self.questionIndex + 1
         self.navigationController?.pushViewController(surveyViewController, animated: true)
-      
-   
     }
     
     
     func modelPredict(){
-        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
-
+//        let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
+        var answersFromAnswerManager = [Int]()
+        answersFromAnswerManager.append(AnswersManager.shared.answers["label"] as! Int)
+        answersFromAnswerManager.append(AnswersManager.shared.answers["price"] as! Int)
+        answersFromAnswerManager.append(AnswersManager.shared.answers["score"] as! Int)
+        answersFromAnswerManager.append(AnswersManager.shared.answers["dry"] as! Int)
+        answersFromAnswerManager.append(AnswersManager.shared.answers["combination"] as! Int)
+        answersFromAnswerManager.append(AnswersManager.shared.answers["normal"] as! Int)
+        answersFromAnswerManager.append(AnswersManager.shared.answers["oily"] as! Int)
+        answersFromAnswerManager.append( AnswersManager.shared.answers["sensitive"] as! Int)
+            
+        print("\(answersFromAnswerManager)")
+        
+        let parameters :[[Int]] = [answersFromAnswerManager]
         let url = URL(string: "https://quinn-model.herokuapp.com/productid")
         let session = URLSession.shared
 
@@ -240,9 +255,8 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
             } else if answers == "Normal" {
                 AnswersManager.shared.answers["normal"] = 1
                 print(AnswersManager.shared.answers)
-                print(AnswersManager.shared.answers)
-                let params = AnswersManager.shared.answers.map{$0.value} as! [Int]
-                print("\(params)")
+//                let params = AnswersManager.shared.answers.map{$0.value} as! [Int]
+//                print("\(params)")
                 
             } else if answers == "Sensitive" {
                 AnswersManager.shared.answers["sensitive"] = 1
@@ -264,4 +278,5 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
 }
+
 
