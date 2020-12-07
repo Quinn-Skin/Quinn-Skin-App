@@ -37,12 +37,11 @@ class RecommendedProductViewController: UIViewController {
             } else if let data = data {
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 self.produts = dataDictionary["Produt"] as! [String : Any]
-//                print(self.produts)
                 self.urltoShare = (self.produts["url"] as? String)!
 
                 // Product Image
-//                let imageUrl = self.produts["image_url"] as? String
-                let formatedImageUrl = URL(string: "https://www.sephora.com/productimages/sku/s2002087-main-zoom.jpg?imwidth=600")
+                let imageUrl = Substring((self.produts["image_url"] as? Substring)!)
+                let formatedImageUrl = URL(string: String(imageUrl))
                 self.productImage.af_setImage(withURL: formatedImageUrl!)
 
 //                // Product name
