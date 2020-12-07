@@ -40,12 +40,31 @@ class BudgetViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedCell = collectionView.cellForItem(at: indexPath) as! BudgetCell
-        print(self.answers[indexPath.row])
+//        print(self.answers[indexPath.row])
         selectedCell.layer.backgroundColor = self.leatherColor.cgColor
+        self.handleSelectedCell(selectedCell: self.answers[indexPath.row])
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         let selectedCell = collectionView.cellForItem(at: indexPath) as! BudgetCell
         selectedCell.layer.backgroundColor = self.creamColor.cgColor
     }
+    
+    func handleSelectedCell(selectedCell: String) -> Void {
+        if selectedCell == "$25 Or Less" {
+            AnswersManager.shared.answers["price"] = 25
+            print(AnswersManager.shared.answers)
+            
+        } else if selectedCell == "$25-$50" {
+            AnswersManager.shared.answers["price"] = 50
+            print(AnswersManager.shared.answers)
+            
+        } else if selectedCell == "Over $50" {
+            AnswersManager.shared.answers["price"] = 60
+            print(AnswersManager.shared.answers)
+            
+        }
+    }
 }
+
