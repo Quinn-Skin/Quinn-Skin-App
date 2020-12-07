@@ -7,8 +7,8 @@
 
 import UIKit
 
-class answerManager {
-    static var shared = answerManager()
+class AnswersManager {
+    static var shared = AnswersManager()
     var productId : String = ""
     var answers = [
         "label": nil,
@@ -52,7 +52,9 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
         layout.minimumLineSpacing = 20
         layout.minimumInteritemSpacing = 10
         let width = (view.frame.size.width - layout.minimumInteritemSpacing)/2
-        layout.itemSize = CGSize(width: width, height: width * 0.5)
+        layout.itemSize = CGSize(width: width * 0.8, height: width * 0.5)
+        
+        questionLabel.layer.cornerRadius = 40
      
             
     }
@@ -136,10 +138,18 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
         selectedCell.isSelected = true
         lastSelectedIndexPath = indexPath
         
+        
             
         selectedAnswer.append(lastSelectedIndexPath!)
-        print("\(selectedAnswer)")
+//        print("\(selectedAnswer)")
 //        print("\(selectedAnswer[0][1])")
+        
+        let currentQuestion = surveyModels[questionIndex]
+        
+//        let getSelectedAnswer = surveyModels[1].answers[selectedAnswer[selectedAnswer.count - 1][1]].text
+        let getSelectedAnswer = currentQuestion.answers[selectedAnswer[0][1]].text
+//        print("\(getSelectedAnswer)")
+        self.updateAnswers(answers:getSelectedAnswer)
         
         collectionView.deselectItem(at: indexPath, animated: true)
         
@@ -164,12 +174,6 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
    
     }
     
-//    func toParam() -> [String : Any]{
-//        var param : [String : Any] = [:]
-//        param["isSelected"] = self.isSelected ? 1:0
-//        return param
-//
-//    }
     
     func modelPredict(){
         let parameters:[[Int]] = [[2,10,4,1,0,0,0,0]]
@@ -199,11 +203,65 @@ class SurveyViewController: UIViewController, UICollectionViewDelegate, UICollec
             
             if let data = data, let dataString = String(data:data,encoding: .utf8) {
                 print(dataString)
-                answerManager.shared.productId = dataString
+                AnswersManager.shared.productId = dataString
             }
         }
         task.resume()
 
     }
     
+    func updateAnswers(answers: String) -> Void {
+            if answers == "Cleanser"  {
+                AnswersManager.shared.answers["label"] = 0
+                print(AnswersManager.shared.answers)
+//                let params = AnswersManager.shared.answers.map{$0.value} as! [Int]
+//                print("\(params)")
+                
+            } else if answers == "Moisturizer"  {
+                AnswersManager.shared.answers["label"] = 1
+                print(AnswersManager.shared.answers)
+                
+            } else if answers == "Shaving Kits"  {
+                AnswersManager.shared.answers["label"] = 2
+                print(AnswersManager.shared.answers)
+                
+            } else if answers == "fragrance"  {
+                AnswersManager.shared.answers["label"] = 3
+                print(AnswersManager.shared.answers)
+                
+            } else if answers == "Eye Cream"  {
+                AnswersManager.shared.answers["label"] = 4
+                print(AnswersManager.shared.answers)
+                
+            } else if answers == "Deodorant"  {
+                AnswersManager.shared.answers["label"] = 5
+                print(AnswersManager.shared.answers)
+                
+            } else if answers == "Normal" {
+                AnswersManager.shared.answers["normal"] = 1
+                print(AnswersManager.shared.answers)
+                print(AnswersManager.shared.answers)
+                let params = AnswersManager.shared.answers.map{$0.value} as! [Int]
+                print("\(params)")
+                
+            } else if answers == "Sensitive" {
+                AnswersManager.shared.answers["sensitive"] = 1
+                print(AnswersManager.shared.answers)
+                
+            } else if answers == "Oily" {
+                AnswersManager.shared.answers["oily"] = 1
+                print(AnswersManager.shared.answers)
+                
+            }else if answers == "Dry" {
+                AnswersManager.shared.answers["dry"] = 1
+                print(AnswersManager.shared.answers)
+                
+            }else if answers == "Combination" {
+                AnswersManager.shared.answers["combination"] = 1
+                print(AnswersManager.shared.answers)
+            }
+        
+    }
+    
 }
+
