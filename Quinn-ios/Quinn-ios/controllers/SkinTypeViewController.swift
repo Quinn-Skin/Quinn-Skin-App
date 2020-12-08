@@ -7,100 +7,83 @@
 
 import UIKit
 
-class SkinTypeViewController: UIViewController {
-    @IBOutlet weak var normalButton: UIButton!
-    @IBOutlet weak var sensitiveButton: UIButton!
-    @IBOutlet weak var dryButton: UIButton!
-    @IBOutlet weak var oilyButton: UIButton!
-    @IBOutlet weak var comboButton: UIButton!
-    @IBOutlet weak var nextButton: UIButton!
+class SkinTypeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    @IBOutlet weak var skinTypeCollectionView: UICollectionView!
+    var userAnswer = ["normal", "sensitive", "dry", "oily", "combo"]
     
-    var userAnswer = ""
+    //  colors
+    let leatherColor = UIColor(red: 254.0/255.0, green: 150.0/255.0, blue: 0/255.0, alpha: 1.0)
+    let greenColor = UIColor(red: 32.0/255.0, green: 34.0/255.0, blue: 37.0/255.5, alpha: 1.0)
+    let creamColor = UIColor(red: 252.0/255.0, green: 249.0/255.0, blue: 226.0/255.5, alpha: 1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        normalButton.layer.cornerRadius = 15
-        sensitiveButton.layer.cornerRadius = 15
-        dryButton.layer.cornerRadius = 15
-        oilyButton.layer.cornerRadius = 15
-        comboButton.layer.cornerRadius = 15
-        nextButton.layer.cornerRadius = 15
-        
-//        AnswersManager.shared.productId = "10"
         AnswersManager.shared.answers["sensitive"] = 1
-    }
-    
-    
-    @IBAction func onNormal(_ sender: Any) {
-        self.normalButton.backgroundColor = UIColor.orange
-        self.sensitiveButton.backgroundColor = UIColor.blue
-        self.oilyButton.backgroundColor = UIColor.blue
-        self.dryButton.backgroundColor = UIColor.blue
-        self.comboButton.backgroundColor = UIColor.blue
-        self.userAnswer = "normal"
-        print(userAnswer)
         
-        
+        skinTypeCollectionView.dataSource = self
+        skinTypeCollectionView.delegate = self
     }
     
-    @IBAction func onSensitive(_ sender: Any) {
-        self.sensitiveButton.backgroundColor = UIColor.orange
-        self.normalButton.backgroundColor = UIColor.blue
-        self.oilyButton.backgroundColor = UIColor.blue
-        self.dryButton.backgroundColor = UIColor.blue
-        self.comboButton.backgroundColor = UIColor.blue
-        self.userAnswer = "sentive"
-        print(userAnswer)
-        
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.userAnswer.count
     }
     
-    @IBAction func onOily(_ sender: Any) {
-        self.oilyButton.backgroundColor = UIColor.orange
-        self.sensitiveButton.backgroundColor = UIColor.blue
-        self.normalButton.backgroundColor = UIColor.blue
-        self.dryButton.backgroundColor = UIColor.blue
-        self.comboButton.backgroundColor = UIColor.blue
-        self.userAnswer = "oily"
-        print(userAnswer)
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SkinTypeCell", for: indexPath) as? SkinTypeCell
+        cell?.layer.backgroundColor = self.leatherColor.cgColor
+        cell?.buttonName.text = self.userAnswer[indexPath.row].capitalized
+        cell?.buttonName.layer.cornerRadius = 15
+        return cell!
     }
     
-     @IBAction func onDry(_ sender: Any) {
-        self.dryButton.backgroundColor = UIColor.orange
-        self.normalButton.backgroundColor = UIColor.blue
-        self.sensitiveButton.backgroundColor = UIColor.blue
-        self.oilyButton.backgroundColor = UIColor.blue
-        self.comboButton.backgroundColor = UIColor.blue
-        self.userAnswer = "dry"
-        AnswersManager.shared.answers["dry"] = 1
-        print(userAnswer)
-     }
-    
-    @IBAction func onCombo(_ sender: Any) {
-        self.comboButton.backgroundColor = UIColor.orange
-        self.normalButton.backgroundColor = UIColor.blue
-        self.sensitiveButton.backgroundColor = UIColor.blue
-        self.oilyButton.backgroundColor = UIColor.blue
-        self.dryButton.backgroundColor = UIColor.blue
-        AnswersManager.shared.answers["combination"] = 1
-        
-        self.userAnswer = "combo"
-        print(userAnswer)
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedCell = collectionView.cellForItem(at: indexPath) as! SkinTypeCell
+        selectedCell.layer.backgroundColor = self.creamColor.cgColor
+        self.handleAnswers(answer: self.userAnswer[indexPath.row])
+//        print(userAnswer[indexPath.row])
     }
     
-    @IBAction func onNext(_ sender: Any) {
-        self.nextButton.backgroundColor = UIColor.darkGray
-        
-
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        let selectedCell = collectionView.cellForItem(at: indexPath) as! SkinTypeCell
+        selectedCell.layer.backgroundColor = self.leatherColor.cgColor
     }
     
-    /*
-     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func handleAnswers(answer: String) -> Void {
+        if answer == "normal" {
+            AnswersManager.shared.answers["normal"] = 1
+            AnswersManager.shared.answers["dry"] = 0
+            AnswersManager.shared.answers["combination"] = 0
+            AnswersManager.shared.answers["oily"] = 0
+            AnswersManager.shared.answers["sensitive"] = 0
+            
+        } else if answer == "dry" {
+            AnswersManager.shared.answers["normal"] = 0
+            AnswersManager.shared.answers["dry"] = 1
+            AnswersManager.shared.answers["combination"] = 0
+            AnswersManager.shared.answers["oily"] = 0
+            AnswersManager.shared.answers["sensitive"] = 0
+            
+        } else  if answer == "combo" {
+            AnswersManager.shared.answers["normal"] = 0
+            AnswersManager.shared.answers["dry"] = 0
+            AnswersManager.shared.answers["combination"] = 1
+            AnswersManager.shared.answers["oily"] = 0
+            AnswersManager.shared.answers["sensitive"] = 0
+            
+        } else if answer == "oily" {
+            AnswersManager.shared.answers["normal"] = 0
+            AnswersManager.shared.answers["dry"] = 0
+            AnswersManager.shared.answers["combination"] = 0
+            AnswersManager.shared.answers["oily"] = 1
+            AnswersManager.shared.answers["sensitive"] = 0
+            
+        } else if answer == "sensitive" {
+            AnswersManager.shared.answers["normal"] = 0
+            AnswersManager.shared.answers["dry"] = 0
+            AnswersManager.shared.answers["combination"] = 0
+            AnswersManager.shared.answers["oily"] = 0
+            AnswersManager.shared.answers["sensitive"] = 1
+        }
     }
-    */
-
 }
+
