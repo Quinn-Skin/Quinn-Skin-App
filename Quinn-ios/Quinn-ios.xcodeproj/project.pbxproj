@@ -21,6 +21,7 @@
 		D68F4E814A0226CC2E2A06DB /* Pods_Quinn_ios_Quinn_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */; };
 		D8ABE1F3257ED9B5000183C1 /* ScentType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ABE1F2257ED9B5000183C1 /* ScentType.storyboard */; };
 		D8ABE1F5257ED9E1000183C1 /* ScentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ABE1F4257ED9E1000183C1 /* ScentViewController.swift */; };
+		D8ABE1F7257EDA3E000183C1 /* ScentAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ABE1F6257EDA3E000183C1 /* ScentAnswerCell.swift */; };
 		E157E269255616E600DFF91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E268255616E600DFF91C /* AppDelegate.swift */; };
 		E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E26A255616E600DFF91C /* SceneDelegate.swift */; };
 		E157E270255616E600DFF91C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E157E26E255616E600DFF91C /* Main.storyboard */; };
@@ -65,6 +66,7 @@
 		D5C873EF19F08FB728676409 /* Pods-Quinn-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-Quinn-iosTests/Pods-Quinn-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8ABE1F2257ED9B5000183C1 /* ScentType.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScentType.storyboard; sourceTree = "<group>"; };
 		D8ABE1F4257ED9E1000183C1 /* ScentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScentViewController.swift; sourceTree = "<group>"; };
+		D8ABE1F6257EDA3E000183C1 /* ScentAnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScentAnswerCell.swift; sourceTree = "<group>"; };
 		D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB92B580C6996484A392334 /* Pods_Quinn_ios_Quinn_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quinn_ios_Quinn_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E157E265255616E600DFF91C /* Quinn-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quinn-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				64AB35AB25699254004095C2 /* ViewController.swift */,
 				7EF020AC2571F830008B98A1 /* SkinTypeViewController.swift */,
 				D8ABE1F4257ED9E1000183C1 /* ScentViewController.swift */,
+				D8ABE1F6257EDA3E000183C1 /* ScentAnswerCell.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				64AB35AC25699254004095C2 /* ViewController.swift in Sources */,
 				E157E26B255616E600DFF91C /* SceneDelegate.swift in Sources */,
 				6484AB96257817C600C71C8A /* AnswerManager.swift in Sources */,
+				D8ABE1F7257EDA3E000183C1 /* ScentAnswerCell.swift in Sources */,
 				7EF020AD2571F830008B98A1 /* SkinTypeViewController.swift in Sources */,
 				646BF52125782A0500BDDD17 /* Model.swift in Sources */,
 			);

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhr-8b-FPJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fhr-8b-FPJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -35,7 +35,7 @@
                                     <constraint firstItem="fMx-Pb-PCo" firstAttribute="leading" secondItem="UIA-co-Zvu" secondAttribute="leading" constant="8" id="qSH-gx-sE5"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fg-lQ-cru">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fg-lQ-cru">
                                 <rect key="frame" x="20" y="404" width="170" height="87"/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.97647058819999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -50,7 +50,7 @@
                                     <action selector="onTwintyFiveOrLess:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="cMt-K6-KZ1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRt-7c-JBe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRt-7c-JBe">
                                 <rect key="frame" x="224" y="404" width="170" height="87"/>
                                 <color key="backgroundColor" red="0.9882352941176471" green="0.97647058823529409" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -65,7 +65,7 @@
                                     <action selector="onTwentyFiveToFifty:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="ySy-Qe-s4a"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVy-Rd-42w">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVy-Rd-42w">
                                 <rect key="frame" x="20" y="533" width="170" height="87"/>
                                 <color key="backgroundColor" red="0.98823529409999999" green="0.97647058819999999" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -80,7 +80,7 @@
                                     <action selector="overFifty:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="GpW-fP-8tc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcC-DT-bhe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcC-DT-bhe">
                                 <rect key="frame" x="263" y="809" width="131" height="53"/>
                                 <color key="backgroundColor" red="0.17254901959999999" green="0.20392156859999999" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -93,11 +93,10 @@
                                 </state>
                                 <connections>
                                     <action selector="onNext:" destination="Fhr-8b-FPJ" eventType="touchUpInside" id="eJc-pY-3ub"/>
-                                    <segue destination="mBb-Lo-owE" kind="presentation" modalPresentationStyle="fullScreen" id="OCf-J0-0NL"/>
+                                    <segue destination="fMg-Xi-PMA" kind="presentation" id="OFk-2g-dNl"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6pm-zf-83j"/>
                         <color key="backgroundColor" red="0.12549019607843137" green="0.13333333333333333" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="3Fg-lQ-cru" firstAttribute="top" secondItem="UIA-co-Zvu" secondAttribute="bottom" constant="35" id="2It-bz-fdc"/>
@@ -112,6 +111,7 @@
                             <constraint firstItem="IVy-Rd-42w" firstAttribute="top" secondItem="3Fg-lQ-cru" secondAttribute="bottom" constant="42" id="tbm-yN-6NW"/>
                             <constraint firstItem="6pm-zf-83j" firstAttribute="trailing" secondItem="sRt-7c-JBe" secondAttribute="trailing" constant="20" id="zId-3F-v2O"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="6pm-zf-83j"/>
                     </view>
                     <connections>
                         <outlet property="VCView" destination="FJj-H3-P29" id="V7h-hC-9Sk"/>
@@ -131,7 +131,15 @@
                 <viewControllerPlaceholder storyboardName="Recommended" id="mBb-Lo-owE" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h6s-jS-v8B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="230" y="465"/>
+            <point key="canvasLocation" x="-48" y="459"/>
+        </scene>
+        <!--ScentType-->
+        <scene sceneID="Y8e-yg-aGy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ScentType" id="fMg-Xi-PMA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xs2-cv-Cvn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="476"/>
         </scene>
     </scenes>
 </document>
