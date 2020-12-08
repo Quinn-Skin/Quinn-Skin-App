@@ -23,6 +23,10 @@ class BudgetViewController: UIViewController, UICollectionViewDelegate, UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for:.default)
+//        self.navigationController?.navigationBar.shadowImage = UIImage()
+//        self.navigationController?.navigationBar.layoutIfNeeded()
+        
         budgetCollectionView.dataSource = self
         budgetCollectionView.delegate = self
         messageView.layer.cornerRadius = CGFloat(cornerRadius)
