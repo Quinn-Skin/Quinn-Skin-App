@@ -58,15 +58,15 @@ class BudgetViewController: UIViewController, UICollectionViewDelegate, UICollec
     func handleSelectedCell(selectedCell: String) -> Void {
         if selectedCell == "$25 Or Less" {
             AnswersManager.shared.answers["price"] = 25
-            print(AnswersManager.shared.answers)
+            print(AnswersManager.shared.answers["price"]!!)
             
         } else if selectedCell == "$25-$50" {
             AnswersManager.shared.answers["price"] = 50
-            print(AnswersManager.shared.answers)
+            print(AnswersManager.shared.answers["price"]!!)
             
         } else if selectedCell == "Over $50" {
             AnswersManager.shared.answers["price"] = 60
-            print(AnswersManager.shared.answers)
+            print(AnswersManager.shared.answers["price"]!!)
             
         }
     }

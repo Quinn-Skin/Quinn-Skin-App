@@ -18,6 +18,7 @@
 		64C07DDD257C1E840039ECA8 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C07DDC257C1E840039ECA8 /* Test.storyboard */; };
 		64C07DE2257C1F4E0039ECA8 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C07DE1257C1F4E0039ECA8 /* TestCell.swift */; };
 		64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */; };
+		7EA16A11257F2B5D0057E753 /* SkinTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA16A10257F2B5D0057E753 /* SkinTypeCell.swift */; };
 		7EF020A82571F7F5008B98A1 /* SkinType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF020A72571F7F5008B98A1 /* SkinType.storyboard */; };
 		7EF020AD2571F830008B98A1 /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF020AC2571F830008B98A1 /* SkinTypeViewController.swift */; };
 		80BE1E0C378D0633D0B1E5AF /* Pods_Quinn_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C7305AC6252AD756C97387 /* Pods_Quinn_ios.framework */; };
@@ -64,6 +65,7 @@
 		64C07DDC257C1E840039ECA8 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		64C07DE1257C1F4E0039ECA8 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
 		64C0BE7E256981E300B39C03 /* RecommendedProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductViewController.swift; sourceTree = "<group>"; };
+		7EA16A10257F2B5D0057E753 /* SkinTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeCell.swift; sourceTree = "<group>"; };
 		7EF020A72571F7F5008B98A1 /* SkinType.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SkinType.storyboard; sourceTree = "<group>"; };
 		7EF020AC2571F830008B98A1 /* SkinTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
 		992343CF08D6FE692B6F5D29 /* Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-Quinn-ios-Quinn-iosUITests/Pods-Quinn-ios-Quinn-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				64AE5D71257C4F480060882D /* BudgetCell.swift */,
+				7EA16A10257F2B5D0057E753 /* SkinTypeCell.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA16A11257F2B5D0057E753 /* SkinTypeCell.swift in Sources */,
 				64C07DD5257C1E6A0039ECA8 /* TestViewController.swift in Sources */,
 				64AE5D72257C4F480060882D /* BudgetCell.swift in Sources */,
 				64C0BE7F256981E300B39C03 /* RecommendedProductViewController.swift in Sources */,
