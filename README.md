@@ -2,6 +2,7 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
+1. [Product Demo](#Product-Demo)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 
@@ -13,6 +14,10 @@ It is not easy that we all need to navigate our lives with the quarantine situat
 Quinn is a mobile app to recommend clean skincare products for men. Users take a five-question survey regarding their skin concerns, and the app will recommend them a curated selection of products, such as some essentials for men: facial cleanser, moisturizer,and suncare.
 
 At Quinn, our goal is to help you build a healthy and easy-to-follow skincare routine. No more confusion and frustration. Want a glowy skin for your next zoom meeting? Come and join Quinn!
+
+### Product Demo
+
+![Untitled4](https://user-images.githubusercontent.com/40009989/101993872-d8c76900-3c8b-11eb-9075-839d28cbfefd.gif)
 
 ### App Evaluation
 - **Category:** Skincare, Wellness,and Social
@@ -103,13 +108,4 @@ At Quinn, our goal is to help you build a healthy and easy-to-follow skincare ro
    Note: the team deployed the following API endpoints to Heroku t retrive product details and to get recommender model inference
    1. product details: https://quinn-server.herokuapp.com/products/:id
    2. recommende inference : https://quinn-model.herokuapp.com/productid
-   
-
-## Sprint 1 update
-    
- ![Untitled2](https://user-images.githubusercontent.com/40009989/100488658-81e36080-30dd-11eb-914a-5bde60c8d5ee.gif)     
- 
-## Sprint 2 update 
-
- ![Untitled2](https://user-images.githubusercontent.com/40009989/101226031-1bbc8780-3661-11eb-96d2-3905854b37ca.gif)
-      
+         
