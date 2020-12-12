@@ -9,7 +9,7 @@
 ## Overview
 ### Description
 
-The year of 2020 has been an interesting year for all of us \ AND to our skin. It is not easy that \ we all need to navigate our lives with the quarantine situation /  and the meaning of wearing a face mask goes beyond reaching out to your medicine cabinet to put a sheet mask on. 
+The year of 2020 has been an interesting year for all of us AND to our skin. It is not easy that we all need to navigate our lives with the quarantine situation and the meaning of wearing a face mask goes beyond reaching out to your medicine cabinet to put a sheet mask on. 
 
 Disrupted workout routine, balancing work and school life to prevent burnouts, and all those irregular breakouts popped up overnight is probably the last thing we want before all these zoom meetings. Like the one we are in right now. Don’t we all want to take good care of ourselves and our skin to make a good impression on others.
 
